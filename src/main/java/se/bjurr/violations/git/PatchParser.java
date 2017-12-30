@@ -4,13 +4,13 @@ import static se.bjurr.violations.lib.util.Optional.absent;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
 import se.bjurr.violations.lib.util.Optional;
 
 public class PatchParser {
 
   /** http://en.wikipedia.org/wiki/Diff_utility#Unified_format */
-  public static Optional<Integer> findLineToComment(final String patchString, final Integer lineToComment) {
+  public static Optional<Integer> findLineInDiff(
+      final String patchString, final Integer lineToComment) {
     if (patchString == null) {
       return Optional.absent();
     }

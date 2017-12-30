@@ -3,6 +3,7 @@ apply plugin: 'java'
 project.ext.tags = ['violation', 'static code analysis', 'Checkstyle', 'CPPLint', 'CPPCheck', 'CSSLint', 'Findbugs', 'Flake8', 'PyLint', 'Pep8', 'Mccabe', 'PyFlakes', 'JSHint', 'Lint', 'PerlCritic', 'PMD', 'ReSharper', 'XMLLint']
 group = 'se.bjurr.violations'
 description = 'Provides utilities for matching violations to local Git repository.'
+project.ext.useShadowJar = true
 
 
 buildscript {
@@ -25,4 +26,9 @@ dependencies {
  testCompile 'junit:junit:4.12'
  testCompile 'org.assertj:assertj-core:2.3.0'
  testCompile 'org.slf4j:slf4j-simple:1.7.25'
+}
+
+shadowJar {
+ relocate 'org',      project.group + '.' + project.name + '.org'
+ relocate 'com',      project.group + '.' + project.name + '.com'
 }
