@@ -29,6 +29,7 @@ dependencies {
 }
 
 shadowJar {
- relocate 'org',      project.group + '.' + project.name + '.org'
- relocate 'com',      project.group + '.' + project.name + '.com'
+ relocate 'org', project.group + '.' + project.name + '.org'
+ relocate 'com', project.group + '.' + project.name + '.com'
+ relocate 'se',  'se'
 }
