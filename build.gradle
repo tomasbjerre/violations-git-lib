@@ -31,5 +31,5 @@ dependencies {
 shadowJar {
  relocate 'org', safeJavaIdentidier(project.group + '.' + project.name + '.org')
  relocate 'com', safeJavaIdentidier(project.group + '.' + project.name + '.com')
- relocate 'se', safeJavaIdentidier(project.group + '.' + project.name + '.se')
+ relocate 'se', 'se'
 }
