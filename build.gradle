@@ -20,7 +20,7 @@ apply from: project.buildscript.classLoader.getResource('release.gradle').toURI(
 
 
 dependencies {
- compile 'se.bjurr.violations:violations-lib:1.61'
+ compile 'se.bjurr.violations:violations-lib:1.62'
  compile 'org.eclipse.jgit:org.eclipse.jgit:4.9.2.201712150930-r'
  compile 'com.jakewharton.fliptables:fliptables:1.0.2'
 
