@@ -3,13 +3,122 @@
 
 Changelog of Violations git lib.
 
-## Unreleased
+## 1.13
 ### No issue
+
+**Kotlin Maven and Gradle parsers**
+
+
+[a15ed0f19c159fc](https://github.com/tomasbjerre/violations-git-lib/commit/a15ed0f19c159fc) Tomas Bjerre *2018-09-20 13:56:39*
+
+
+## 1.12
+### No issue
+
+**Fix optional rule in YAMLLint**
+
+
+[f21c01ffb66d955](https://github.com/tomasbjerre/violations-git-lib/commit/f21c01ffb66d955) Tomas Bjerre *2018-09-17 13:15:10*
+
+
+## 1.11
+### No issue
+
+**YAMLLint**
+
+
+[18ac1c7c565c046](https://github.com/tomasbjerre/violations-git-lib/commit/18ac1c7c565c046) Tomas Bjerre *2018-09-15 07:41:50*
+
+
+## 1.10
+### No issue
+
+**Adding Fliptables dependency**
+
+
+[70ef7b26dc97fcf](https://github.com/tomasbjerre/violations-git-lib/commit/70ef7b26dc97fcf) Tomas Bjerre *2018-09-12 20:25:09*
+
+
+## 1.9
+### No issue
+
+**PCLint**
+
+
+[7eb822bcac60c15](https://github.com/tomasbjerre/violations-git-lib/commit/7eb822bcac60c15) Tomas Bjerre *2018-02-13 18:34:24*
+
+
+## 1.8
+### No issue
+
+**Google error-prone**
+
+
+[1ab3502ca0456ed](https://github.com/tomasbjerre/violations-git-lib/commit/1ab3502ca0456ed) Tomas Bjerre *2018-01-14 11:26:26*
+
+
+## 1.7
+### No issue
+
+**1.7**
+
+
+[774244a6386872d](https://github.com/tomasbjerre/violations-git-lib/commit/774244a6386872d) Tomas Bjerre *2018-01-13 19:27:06*
+
+**Max column widths**
+
+
+[82bae9a13061e57](https://github.com/tomasbjerre/violations-git-lib/commit/82bae9a13061e57) Tomas Bjerre *2018-01-13 19:11:04*
+
+
+## 1.6
+### No issue
+
+**Un-escape XML when reading attributes**
+
+
+[1ce3aa34f0559b4](https://github.com/tomasbjerre/violations-git-lib/commit/1ce3aa34f0559b4) Tomas Bjerre *2017-12-31 06:00:32*
+
+
+## 1.5
+### No issue
+
+**Relocating to correct Java identifier**
+
+
+[0483e6b8b304e45](https://github.com/tomasbjerre/violations-git-lib/commit/0483e6b8b304e45) Tomas Bjerre *2017-12-30 18:47:24*
+
+
+## 1.4
+### No issue
+
+**Relocating to correct Java identifier**
+
+
+[e6e39b520cfb139](https://github.com/tomasbjerre/violations-git-lib/commit/e6e39b520cfb139) Tomas Bjerre *2017-12-30 18:41:51*
+
+
+## 1.3
+### No issue
+
+**Trying to make relocate work**
+
+
+[12417f1a298bd48](https://github.com/tomasbjerre/violations-git-lib/commit/12417f1a298bd48) Tomas Bjerre *2017-12-30 14:17:41*
+
+
+## 1.1
+### No issue
+
+**1.1-SNAPSHOT**
+
+
+[a5a11980926dffb](https://github.com/tomasbjerre/violations-git-lib/commit/a5a11980926dffb) Tomas Bjerre *2017-12-30 10:23:24*
 
 **More work on 1.0**
 
 
-[1560b349ef6da89](https://github.com/tomasbjerre/violations-git-lib/commit/1560b349ef6da89) Tomas Bjerre *2017-12-30 10:20:43*
+[3e6ff594c998592](https://github.com/tomasbjerre/violations-git-lib/commit/3e6ff594c998592) Tomas Bjerre *2017-12-30 10:21:23*
 
 **Working on 1.0**
 
