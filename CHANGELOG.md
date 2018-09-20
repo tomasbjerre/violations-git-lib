@@ -3,6 +3,15 @@
 
 Changelog of Violations git lib.
 
+## 1.14
+### No issue
+
+**Correcting Kotlin parsers**
+
+
+[4dc52646923cffb](https://github.com/tomasbjerre/violations-git-lib/commit/4dc52646923cffb) Tomas Bjerre *2018-09-20 23:43:00*
+
+
 ## 1.13
 ### No issue
 
@@ -55,10 +64,6 @@ Changelog of Violations git lib.
 
 
 [1ab3502ca0456ed](https://github.com/tomasbjerre/violations-git-lib/commit/1ab3502ca0456ed) Tomas Bjerre *2018-01-14 11:26:26*
-
-
-## 1.7
-### No issue
 
 **1.7**
 
