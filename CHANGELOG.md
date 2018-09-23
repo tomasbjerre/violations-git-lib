@@ -3,6 +3,15 @@
 
 Changelog of Violations git lib.
 
+## 1.15
+### No issue
+
+**Automating reporters in readme**
+
+
+[004ac77d47d2dfc](https://github.com/tomasbjerre/violations-git-lib/commit/004ac77d47d2dfc) Tomas Bjerre *2018-09-23 12:24:25*
+
+
 ## 1.14
 ### No issue
 
