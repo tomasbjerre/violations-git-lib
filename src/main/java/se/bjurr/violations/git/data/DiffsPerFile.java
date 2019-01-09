@@ -4,7 +4,7 @@ import static java.lang.Integer.MAX_VALUE;
 
 import java.util.Map;
 import java.util.Map.Entry;
-import se.bjurr.violations.lib.util.Optional;
+import java.util.Optional;
 
 public class DiffsPerFile {
 
@@ -27,6 +27,6 @@ public class DiffsPerFile {
         }
       }
     }
-    return Optional.fromNullable(patchString);
+    return Optional.ofNullable(patchString);
   }
 }

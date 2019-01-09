@@ -3,9 +3,9 @@ package se.bjurr.violations.git;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 import se.bjurr.violations.git.data.DiffsPerFile;
 import se.bjurr.violations.lib.model.Violation;
-import se.bjurr.violations.lib.util.Optional;
 
 public class ViolationsGit {
   private final List<Violation> violations;

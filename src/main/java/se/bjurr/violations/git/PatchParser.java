@@ -1,10 +1,8 @@
 package se.bjurr.violations.git;
 
-import static se.bjurr.violations.lib.util.Optional.absent;
-
+import java.util.Optional;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import se.bjurr.violations.lib.util.Optional;
 
 public class PatchParser {
 
@@ -12,7 +10,7 @@ public class PatchParser {
   public static Optional<Integer> findLineInDiff(
       final String patchString, final Integer lineToComment) {
     if (patchString == null) {
-      return Optional.absent();
+      return Optional.empty();
     }
     int currentLine = -1;
     int patchLocation = 0;
@@ -30,12 +28,12 @@ public class PatchParser {
       } else if (line.startsWith("+") || line.startsWith(" ")) {
         // Added or unmodified
         if (currentLine == lineToComment) {
-          return Optional.fromNullable(patchLocation);
+          return Optional.ofNullable(patchLocation);
         }
         currentLine++;
       }
       patchLocation++;
     }
-    return absent();
+    return Optional.empty();
   }
 }
