@@ -3,13 +3,13 @@
 
 Changelog of Violations git lib.
 
-## Unreleased
+## 1.16
 ### No issue
 
 **Making CodeNarc respect source directory**
 
 
-[c42152470d8016d](https://github.com/tomasbjerre/violations-git-lib/commit/c42152470d8016d) Tomas Bjerre *2019-01-09 18:32:01*
+[f2b46f079958de8](https://github.com/tomasbjerre/violations-git-lib/commit/f2b46f079958de8) Tomas Bjerre *2019-01-09 18:43:24*
 
 
 ## 1.15
