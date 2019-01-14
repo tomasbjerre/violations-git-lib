@@ -3,6 +3,15 @@
 
 Changelog of Violations git lib.
 
+## 1.17
+### No issue
+
+**Avoiding faulty slash with CodeNarc**
+
+
+[872d85f7e5126da](https://github.com/tomasbjerre/violations-git-lib/commit/872d85f7e5126da) Tomas Bjerre *2019-01-14 17:13:09*
+
+
 ## 1.16
 ### No issue
 
