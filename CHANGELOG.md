@@ -3,6 +3,15 @@
 
 Changelog of Violations git lib.
 
+## 1.18
+### No issue
+
+**golangci-lint**
+
+
+[54ab7ad5438a027](https://github.com/tomasbjerre/violations-git-lib/commit/54ab7ad5438a027) Tomas Bjerre *2019-03-07 15:27:01*
+
+
 ## 1.17
 ### No issue
 
