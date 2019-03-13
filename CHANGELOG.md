@@ -3,6 +3,15 @@
 
 Changelog of Violations git lib.
 
+## 1.19
+### No issue
+
+**Klocwork line numbers**
+
+
+[3cb53f1a93f4302](https://github.com/tomasbjerre/violations-git-lib/commit/3cb53f1a93f4302) Tomas Bjerre *2019-03-13 19:02:26*
+
+
 ## 1.18
 ### No issue
 
