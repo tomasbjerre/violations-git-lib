@@ -3,6 +3,15 @@
 
 Changelog of Violations git lib.
 
+## 1.20
+### No issue
+
+**Sonar Report**
+
+
+[5b3cfa9fdb399c6](https://github.com/tomasbjerre/violations-git-lib/commit/5b3cfa9fdb399c6) Tomas Bjerre *2019-03-23 14:53:48*
+
+
 ## 1.19
 ### No issue
 
