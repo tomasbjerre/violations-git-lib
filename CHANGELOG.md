@@ -3,6 +3,15 @@
 
 Changelog of Violations git lib.
 
+## 1.21
+### No issue
+
+**Correcting Sonar severity**
+
+
+[703913ae5c81931](https://github.com/tomasbjerre/violations-git-lib/commit/703913ae5c81931) Tomas Bjerre *2019-03-30 19:50:15*
+
+
 ## 1.20
 ### No issue
 
