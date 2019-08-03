@@ -3,6 +3,15 @@
 
 Changelog of Violations git lib.
 
+## Unreleased
+### No issue
+
+**Changing name of JSHINT parser to JSLINT**
+
+
+[6fb4e24de567395](https://github.com/tomasbjerre/violations-git-lib/commit/6fb4e24de567395) Tomas Bjerre *2019-08-03 12:07:59*
+
+
 ## 1.21
 ### No issue
 
