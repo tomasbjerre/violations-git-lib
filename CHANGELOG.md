@@ -3,6 +3,15 @@
 
 Changelog of Violations git lib.
 
+## 1.23
+### No issue
+
+**CodeClimate**
+
+
+[249df712bf29014](https://github.com/tomasbjerre/violations-git-lib/commit/249df712bf29014) Tomas Bjerre *2019-09-07 12:32:00*
+
+
 ## 1.22
 ### No issue
 
