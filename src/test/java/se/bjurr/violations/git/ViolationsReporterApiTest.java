@@ -1,5 +1,6 @@
 package se.bjurr.violations.git;
 
+import static org.assertj.core.api.Assertions.assertThat;
 import static se.bjurr.violations.git.ViolationsReporterApi.violationsReporterApi;
 import static se.bjurr.violations.git.ViolationsReporterDetailLevel.COMPACT;
 import static se.bjurr.violations.git.ViolationsReporterDetailLevel.PER_FILE_COMPACT;
@@ -70,7 +71,7 @@ public class ViolationsReporterApiTest {
             .findAll(PERLCRITIC) //
             .violations();
     accumulatedViolations.addAll(perlCriticViolations);
-
+    assertThat(accumulatedViolations).isNotEmpty();
     LOG.info("\n\n\n " + this.name.getMethodName() + " \n\n\n");
   }
 
@@ -113,7 +114,7 @@ public class ViolationsReporterApiTest {
             .withMaxRuleColumnWidth(10) //
             .withMaxSeverityColumnWidth(20) //
             .withMaxLineColumnWidth(10) //
-            .withMaxMessageColumnWidth(20) //
+            .withMaxMessageColumnWidth(200) //
             .getReport(VERBOSE);
 
     LOG.info("\n" + report);

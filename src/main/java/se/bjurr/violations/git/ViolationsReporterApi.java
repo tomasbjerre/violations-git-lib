@@ -8,7 +8,6 @@ import static se.bjurr.violations.lib.model.SEVERITY.INFO;
 import static se.bjurr.violations.lib.model.SEVERITY.WARN;
 import static se.bjurr.violations.lib.util.Utils.checkNotNull;
 
-import com.jakewharton.fliptables.FlipTable;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -18,6 +17,7 @@ import java.util.TreeMap;
 import java.util.TreeSet;
 import se.bjurr.violations.lib.model.SEVERITY;
 import se.bjurr.violations.lib.model.Violation;
+import se.bjurr.violations.table.ViolationsTable;
 
 public class ViolationsReporterApi {
 
@@ -125,11 +125,11 @@ public class ViolationsReporterApi {
     final StringBuilder sb = new StringBuilder();
     final List<String[]> rows = new ArrayList<>();
     for (final Violation violation : violations) {
-      final String message = addNewlines(violation.getMessage(), maxMessageColumnWidth);
-      final String line = addNewlines(violation.getStartLine().toString(), maxLineColumnWidth);
-      final String severity = addNewlines(violation.getSeverity().name(), maxSeverityColumnWidth);
-      final String rule = addNewlines(violation.getRule(), maxRuleColumnWidth);
-      final String reporter = addNewlines(violation.getReporter(), maxReporterColumnWidth);
+      final String message = nullToEmpty(violation.getMessage());
+      final String line = nullToEmpty(violation.getStartLine().toString());
+      final String severity = nullToEmpty(violation.getSeverity().name());
+      final String rule = nullToEmpty(violation.getRule());
+      final String reporter = nullToEmpty(violation.getReporter());
       final String[] row = {reporter, rule, severity, line, message};
       rows.add(row);
     }
@@ -137,37 +137,29 @@ public class ViolationsReporterApi {
     final String[] headers = {"Reporter", "Rule", "Severity", "Line", "Message"};
 
     final String[][] data = rows.toArray(new String[][] {});
-    sb.append(FlipTable.of(headers, data));
+    final int[] columnWidths = {
+      zeroToMax(maxReporterColumnWidth),
+      zeroToMax(maxRuleColumnWidth),
+      zeroToMax(maxSeverityColumnWidth),
+      zeroToMax(maxLineColumnWidth),
+      zeroToMax(maxMessageColumnWidth)
+    };
+    sb.append(ViolationsTable.of(headers, data, columnWidths));
     sb.append("\n");
     sb.append(toCompact(violations, summarySubject));
     sb.append("\n");
     return sb;
   }
 
-  private String addNewlines(final String message, final int maxLineLength) {
+  private int zeroToMax(final int i) {
+    return i == 0 ? Integer.MAX_VALUE : i;
+  }
+
+  private String nullToEmpty(final String message) {
     if (message == null) {
       return "";
     }
-    if (maxLineLength <= 0) {
-      return message;
-    }
-
-    int noLineCounter = 0;
-    final StringBuilder withNewlines = new StringBuilder();
-    for (int i = 0; i < message.length(); i++) {
-      final char charAt = message.charAt(i);
-      withNewlines.append(charAt);
-      if (charAt == '\n') {
-        noLineCounter = 0;
-      } else {
-        noLineCounter++;
-      }
-      if (noLineCounter > 0 && noLineCounter % maxLineLength == 0) {
-        withNewlines.append('\n');
-        noLineCounter = 0;
-      }
-    }
-    return withNewlines.toString().trim();
+    return message.trim();
   }
 
   private StringBuilder toCompact(final Iterable<Violation> violations, final String subject) {
@@ -208,7 +200,9 @@ public class ViolationsReporterApi {
 
     final String[][] data = rows.toArray(new String[][] {});
     sb.append(subject + "\n");
-    sb.append(FlipTable.of(headers, data));
+    final int[] columnWidths = {};
+    sb.append(ViolationsTable.of(headers, data, columnWidths));
+    sb.append("\n");
     return sb;
   }
 
