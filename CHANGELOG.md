@@ -3,8 +3,13 @@
 
 Changelog of Violations git lib.
 
-## Unreleased
+## 1.24
 ### No issue
+
+**Using ASCII chars in tables**
+
+
+[be0123f4b02173b](https://github.com/tomasbjerre/violations-git-lib/commit/be0123f4b02173b) Tomas Bjerre *2019-10-03 18:03:20*
 
 **Create FUNDING.yml**
 
