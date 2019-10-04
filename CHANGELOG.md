@@ -3,6 +3,15 @@
 
 Changelog of Violations git lib.
 
+## 1.25
+### No issue
+
+**Always front slashes when searching FS**
+
+
+[2cad5f1bee036fc](https://github.com/tomasbjerre/violations-git-lib/commit/2cad5f1bee036fc) Tomas Bjerre *2019-10-04 14:47:10*
+
+
 ## 1.24
 ### No issue
 
