@@ -3,6 +3,15 @@
 
 Changelog of Violations git lib.
 
+## 1.26
+### No issue
+
+**More logging**
+
+
+[1f06ea1ce263fd2](https://github.com/tomasbjerre/violations-git-lib/commit/1f06ea1ce263fd2) Tomas Bjerre *2019-10-05 06:22:44*
+
+
 ## 1.25
 ### No issue
 
