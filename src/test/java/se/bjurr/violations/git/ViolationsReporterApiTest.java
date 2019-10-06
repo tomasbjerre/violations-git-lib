@@ -14,10 +14,12 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Logger;
+
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.TestName;
+
 import se.bjurr.violations.lib.model.Violation;
 
 public class ViolationsReporterApiTest {
@@ -111,10 +113,10 @@ public class ViolationsReporterApiTest {
         violationsReporterApi() //
             .withViolations(accumulatedViolations) //
             .withMaxReporterColumnWidth(20) //
-            .withMaxRuleColumnWidth(10) //
+            .withMaxRuleColumnWidth(50) //
             .withMaxSeverityColumnWidth(20) //
             .withMaxLineColumnWidth(10) //
-            .withMaxMessageColumnWidth(200) //
+            .withMaxMessageColumnWidth(300) //
             .getReport(VERBOSE);
 
     LOG.info("\n" + report);
