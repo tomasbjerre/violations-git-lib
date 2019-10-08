@@ -3,6 +3,15 @@
 
 Changelog of Violations git lib.
 
+## Unreleased
+### No issue
+
+**doc**
+
+
+[816c6081d3efc76](https://github.com/tomasbjerre/violations-git-lib/commit/816c6081d3efc76) Tomas Bjerre *2019-10-06 16:46:46*
+
+
 ## 1.26
 ### No issue
 

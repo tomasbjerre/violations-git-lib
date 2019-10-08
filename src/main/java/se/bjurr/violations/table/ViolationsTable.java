@@ -1,6 +1,7 @@
 package se.bjurr.violations.table;
 
 import de.vandermeer.asciitable.AsciiTable;
+import de.vandermeer.asciitable.CWC_LongestLine;
 import de.vandermeer.asciitable.CWC_LongestWordMax;
 import de.vandermeer.asciithemes.a7.A7_Grids;
 
@@ -16,7 +17,11 @@ public class ViolationsTable {
       at.addRule();
     }
     if (columnWidths.length > 0) {
-      at.getRenderer().setCWC(new CWC_LongestWordMax(columnWidths));
+      final CWC_LongestLine longestLinesMinMax = new CWC_LongestLine();
+      for (final int columnWidth : columnWidths) {
+        longestLinesMinMax.add(0, columnWidth);
+      }
+      at.getRenderer().setCWC(longestLinesMinMax);
     } else {
       at.getRenderer().setCWC(new CWC_LongestWordMax(Integer.MAX_VALUE));
     }
