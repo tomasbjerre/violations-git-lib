@@ -3,8 +3,32 @@
 
 Changelog of Violations git lib.
 
-## Unreleased
+## 1.30
 ### No issue
+
+**Corrections in Pydocstyle**
+
+
+[e95819d30313400](https://github.com/tomasbjerre/violations-git-lib/commit/e95819d30313400) Tomas Bjerre *2019-10-10 15:58:09*
+
+**1.29-SNAPSHOT**
+
+
+[fd316aa350437bf](https://github.com/tomasbjerre/violations-git-lib/commit/fd316aa350437bf) Tomas Bjerre *2019-10-09 15:29:29*
+
+
+## 1.28
+### No issue
+
+**1.28**
+
+
+[1a5591c3a3fdbc8](https://github.com/tomasbjerre/violations-git-lib/commit/1a5591c3a3fdbc8) Tomas Bjerre *2019-10-08 17:54:34*
+
+**Setting column widths to min 0 and max to given width**
+
+
+[98c0a7985589d86](https://github.com/tomasbjerre/violations-git-lib/commit/98c0a7985589d86) Tomas Bjerre *2019-10-08 17:48:54*
 
 **doc**
 
