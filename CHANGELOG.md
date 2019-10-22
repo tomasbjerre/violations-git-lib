@@ -3,6 +3,15 @@
 
 Changelog of Violations git lib.
 
+## 1.31
+### GitHub #79   
+
+**Protolint tomasbjerre/violations-lib**
+
+
+[f803456bc61b6cd](https://github.com/tomasbjerre/violations-git-lib/commit/f803456bc61b6cd) Tomas Bjerre *2019-10-22 03:38:27*
+
+
 ## 1.30
 ### No issue
 
