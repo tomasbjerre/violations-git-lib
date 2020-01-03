@@ -3,6 +3,15 @@
 
 Changelog of Violations git lib.
 
+## 1.32
+### GitHub #80   
+
+**Add support for sonar issue report formats >= v7.5 tomasbjerre/violations-lib**
+
+
+[f6442d58f18fdde](https://github.com/tomasbjerre/violations-git-lib/commit/f6442d58f18fdde) Tomas Bjerre *2020-01-03 06:46:37*
+
+
 ## 1.31
 ### GitHub #79   
 
