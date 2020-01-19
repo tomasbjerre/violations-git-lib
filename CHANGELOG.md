@@ -3,6 +3,15 @@
 
 Changelog of Violations git lib.
 
+## 1.33
+### No issue
+
+**Filtering out duplicated violations**
+
+
+[d7d5ed4fb39faef](https://github.com/tomasbjerre/violations-git-lib/commit/d7d5ed4fb39faef) Tomas Bjerre *2020-01-19 15:57:02*
+
+
 ## 1.32
 ### GitHub #80   
 
@@ -233,6 +242,10 @@ Changelog of Violations git lib.
 
 
 [1ab3502ca0456ed](https://github.com/tomasbjerre/violations-git-lib/commit/1ab3502ca0456ed) Tomas Bjerre *2018-01-14 11:26:26*
+
+
+## 1.7
+### No issue
 
 **1.7**
 
