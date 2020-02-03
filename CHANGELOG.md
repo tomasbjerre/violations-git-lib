@@ -3,6 +3,15 @@
 
 Changelog of Violations git lib.
 
+## 1.34
+### GitHub #82   
+
+**CPPCheckParser with auto closed <error/> tags**
+
+
+[3772002fed3afc3](https://github.com/tomasbjerre/violations-git-lib/commit/3772002fed3afc3) Tomas Bjerre *2020-02-03 16:07:23*
+
+
 ## 1.33
 ### No issue
 
@@ -242,10 +251,6 @@ Changelog of Violations git lib.
 
 
 [1ab3502ca0456ed](https://github.com/tomasbjerre/violations-git-lib/commit/1ab3502ca0456ed) Tomas Bjerre *2018-01-14 11:26:26*
-
-
-## 1.7
-### No issue
 
 **1.7**
 
