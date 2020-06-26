@@ -3,6 +3,15 @@
 
 Changelog of Violations git lib.
 
+## 1.36
+### No issue
+
+**Allow missing message in JUnit report**
+
+
+[bab0fc96276a5e6](https://github.com/tomasbjerre/violations-git-lib/commit/bab0fc96276a5e6) Tomas Bjerre *2020-06-26 17:03:45*
+
+
 ## 1.35
 ### GitHub #1   
 
