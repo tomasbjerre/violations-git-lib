@@ -3,6 +3,15 @@
 
 Changelog of Violations git lib.
 
+## 1.37
+### No issue
+
+**New: custom logging in violations-lib**
+
+
+[9ce6e2f8bd357b5](https://github.com/tomasbjerre/violations-git-lib/commit/9ce6e2f8bd357b5) Tomas Bjerre *2020-07-05 14:29:04*
+
+
 ## 1.36
 ### No issue
 
