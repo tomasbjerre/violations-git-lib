@@ -11,8 +11,8 @@ import static se.bjurr.violations.lib.reports.Parser.PERLCRITIC;
 import static se.bjurr.violations.lib.reports.Parser.PMD;
 
 import java.io.File;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Set;
+import java.util.TreeSet;
 import java.util.logging.Logger;
 import org.junit.Before;
 import org.junit.Rule;
@@ -24,10 +24,10 @@ public class ViolationsReporterApiTest {
 
   private static Logger LOG = Logger.getLogger(ViolationsReporterApiTest.class.getName());
 
-  private List<Violation> findbugsViolations;
-  private List<Violation> pmdViolations;
-  private final List<Violation> accumulatedViolations = new ArrayList<>();
-  private List<Violation> perlCriticViolations;
+  private Set<Violation> findbugsViolations;
+  private Set<Violation> pmdViolations;
+  private final Set<Violation> accumulatedViolations = new TreeSet<>();
+  private Set<Violation> perlCriticViolations;
 
   public static String getRootFolder() {
     return new File(
@@ -41,37 +41,37 @@ public class ViolationsReporterApiTest {
   public void before() {
     final String rootFolder = getRootFolder();
 
-    findbugsViolations =
+    this.findbugsViolations =
         violationsApi() //
             .withPattern(".*/findbugs/main\\.xml$") //
             .inFolder(rootFolder) //
             .findAll(FINDBUGS) //
             .violations();
-    accumulatedViolations.addAll(findbugsViolations);
+    this.accumulatedViolations.addAll(this.findbugsViolations);
 
-    pmdViolations =
+    this.pmdViolations =
         violationsApi() //
             .withPattern(".*/pmd/main\\.xml$") //
             .inFolder(rootFolder) //
             .findAll(PMD) //
             .violations();
 
-    pmdViolations =
+    this.pmdViolations =
         violationsApi() //
             .withPattern(".*/pmd/main\\.xml$") //
             .inFolder(rootFolder) //
             .findAll(PMD) //
             .violations();
-    accumulatedViolations.addAll(pmdViolations);
+    this.accumulatedViolations.addAll(this.pmdViolations);
 
-    perlCriticViolations =
+    this.perlCriticViolations =
         violationsApi() //
             .withPattern(".*/perlcritic/.*\\.txt$") //
             .inFolder(rootFolder) //
             .findAll(PERLCRITIC) //
             .violations();
-    accumulatedViolations.addAll(perlCriticViolations);
-    assertThat(accumulatedViolations).isNotEmpty();
+    this.accumulatedViolations.addAll(this.perlCriticViolations);
+    assertThat(this.accumulatedViolations).isNotEmpty();
     LOG.info("\n\n\n " + this.name.getMethodName() + " \n\n\n");
   }
 
@@ -79,7 +79,7 @@ public class ViolationsReporterApiTest {
   public void testCompact() {
     final String report =
         violationsReporterApi() //
-            .withViolations(accumulatedViolations) //
+            .withViolations(this.accumulatedViolations) //
             .getReport(COMPACT);
 
     LOG.info("\n" + report);
@@ -89,7 +89,7 @@ public class ViolationsReporterApiTest {
   public void testPerFileCompact() {
     final String report =
         violationsReporterApi() //
-            .withViolations(accumulatedViolations) //
+            .withViolations(this.accumulatedViolations) //
             .getReport(PER_FILE_COMPACT);
 
     LOG.info("\n" + report);
@@ -99,7 +99,7 @@ public class ViolationsReporterApiTest {
   public void testVerbose() {
     final String report =
         violationsReporterApi() //
-            .withViolations(accumulatedViolations) //
+            .withViolations(this.accumulatedViolations) //
             .getReport(VERBOSE);
 
     LOG.info("\n" + report);
@@ -109,7 +109,7 @@ public class ViolationsReporterApiTest {
   public void testVerboseLimitations() {
     final String report =
         violationsReporterApi() //
-            .withViolations(accumulatedViolations) //
+            .withViolations(this.accumulatedViolations) //
             .withMaxReporterColumnWidth(20) //
             .withMaxRuleColumnWidth(50) //
             .withMaxSeverityColumnWidth(20) //
@@ -124,7 +124,7 @@ public class ViolationsReporterApiTest {
   public void testCompactWithZeroViolations() {
     final String report =
         violationsReporterApi() //
-            .withViolations(new ArrayList<Violation>()) //
+            .withViolations(new TreeSet<Violation>()) //
             .getReport(COMPACT);
 
     LOG.info("\n" + report);
@@ -134,7 +134,7 @@ public class ViolationsReporterApiTest {
   public void testPerFileCompactWithZeroViolations() {
     final String report =
         violationsReporterApi() //
-            .withViolations(new ArrayList<Violation>()) //
+            .withViolations(new TreeSet<Violation>()) //
             .getReport(PER_FILE_COMPACT);
 
     LOG.info("\n" + report);
@@ -144,7 +144,7 @@ public class ViolationsReporterApiTest {
   public void testVerboseWithZeroViolations() {
     final String report =
         violationsReporterApi() //
-            .withViolations(new ArrayList<Violation>()) //
+            .withViolations(new TreeSet<Violation>()) //
             .getReport(VERBOSE);
 
     LOG.info("\n" + report);

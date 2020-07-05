@@ -35,18 +35,18 @@ public class ViolationsReporterApi {
   }
 
   public String getReport(final ViolationsReporterDetailLevel level) {
-    checkNotNull(violations, "violations");
+    checkNotNull(this.violations, "violations");
 
     final StringBuilder sb = new StringBuilder();
 
     if (level == COMPACT) {
-      sb.append(toCompact(violations, "Summary"));
+      sb.append(this.toCompact(this.violations, "Summary"));
     } else if (level == PER_FILE_COMPACT) {
-      sb.append(toPerFile(violations));
-      sb.append(toCompact(violations, "Summary"));
+      sb.append(this.toPerFile(this.violations));
+      sb.append(this.toCompact(this.violations, "Summary"));
     } else if (level == VERBOSE) {
-      sb.append(toVerbose(violations));
-      sb.append(toCompact(violations, "Summary"));
+      sb.append(this.toVerbose(this.violations));
+      sb.append(this.toCompact(this.violations, "Summary"));
     }
 
     return sb.toString();
@@ -54,12 +54,12 @@ public class ViolationsReporterApi {
 
   private StringBuilder toVerbose(final Iterable<Violation> violations) {
     final StringBuilder sb = new StringBuilder();
-    final Map<String, Set<Violation>> perFile = getViolationsPerFile(violations);
+    final Map<String, Set<Violation>> perFile = this.getViolationsPerFile(violations);
     for (final Entry<String, Set<Violation>> perFileEntry : perFile.entrySet()) {
       final String file = perFileEntry.getKey();
       final Set<Violation> fileViolations = perFile.get(file);
       sb.append(file + "\n");
-      sb.append(toDetailed(fileViolations, "Summary of " + file));
+      sb.append(this.toDetailed(fileViolations, "Summary of " + file));
       sb.append("\n");
     }
     return sb;
@@ -67,17 +67,17 @@ public class ViolationsReporterApi {
 
   private StringBuilder toPerFile(final Iterable<Violation> violations) {
     final StringBuilder sb = new StringBuilder();
-    final Map<String, Set<Violation>> perFile = getViolationsPerFile(violations);
+    final Map<String, Set<Violation>> perFile = this.getViolationsPerFile(violations);
     for (final Entry<String, Set<Violation>> fileEntry : perFile.entrySet()) {
       final Set<Violation> fileViolations = fileEntry.getValue();
       final String fileName = fileEntry.getKey();
-      sb.append(toCompact(fileViolations, "Summary of " + fileName));
+      sb.append(this.toCompact(fileViolations, "Summary of " + fileName));
       sb.append("\n");
     }
     return sb;
   }
 
-  public ViolationsReporterApi withViolations(final List<Violation> violations) {
+  public ViolationsReporterApi withViolations(final Set<Violation> violations) {
     this.violations = violations;
     return this;
   }
@@ -125,11 +125,11 @@ public class ViolationsReporterApi {
     final StringBuilder sb = new StringBuilder();
     final List<String[]> rows = new ArrayList<>();
     for (final Violation violation : violations) {
-      final String message = nullToEmpty(violation.getMessage());
-      final String line = nullToEmpty(violation.getStartLine().toString());
-      final String severity = nullToEmpty(violation.getSeverity().name());
-      final String rule = nullToEmpty(violation.getRule());
-      final String reporter = nullToEmpty(violation.getReporter());
+      final String message = this.nullToEmpty(violation.getMessage());
+      final String line = this.nullToEmpty(violation.getStartLine().toString());
+      final String severity = this.nullToEmpty(violation.getSeverity().name());
+      final String rule = this.nullToEmpty(violation.getRule());
+      final String reporter = this.nullToEmpty(violation.getReporter());
       final String[] row = {reporter, rule, severity, line, message};
       rows.add(row);
     }
@@ -138,15 +138,15 @@ public class ViolationsReporterApi {
 
     final String[][] data = rows.toArray(new String[][] {});
     final int[] columnWidths = {
-      zeroToMax(maxReporterColumnWidth),
-      zeroToMax(maxRuleColumnWidth),
-      zeroToMax(maxSeverityColumnWidth),
-      zeroToMax(maxLineColumnWidth),
-      zeroToMax(maxMessageColumnWidth)
+      this.zeroToMax(this.maxReporterColumnWidth),
+      this.zeroToMax(this.maxRuleColumnWidth),
+      this.zeroToMax(this.maxSeverityColumnWidth),
+      this.zeroToMax(this.maxLineColumnWidth),
+      this.zeroToMax(this.maxMessageColumnWidth)
     };
     sb.append(ViolationsTable.of(headers, data, columnWidths));
     sb.append("\n");
-    sb.append(toCompact(violations, summarySubject));
+    sb.append(this.toCompact(violations, summarySubject));
     sb.append("\n");
     return sb;
   }
@@ -164,7 +164,7 @@ public class ViolationsReporterApi {
 
   private StringBuilder toCompact(final Iterable<Violation> violations, final String subject) {
     final StringBuilder sb = new StringBuilder();
-    final Map<String, Set<Violation>> perReporter = getViolationsPerReporter(violations);
+    final Map<String, Set<Violation>> perReporter = this.getViolationsPerReporter(violations);
     final List<String[]> rows = new ArrayList<>();
 
     Integer totNumInfo = 0;
@@ -176,7 +176,7 @@ public class ViolationsReporterApi {
       final String reporter = reporterEntry.getKey();
       final Set<Violation> reporterViolations = reporterEntry.getValue();
       final Map<SEVERITY, Set<Violation>> perSeverity =
-          getViolationsPerSeverity(reporterViolations);
+          this.getViolationsPerSeverity(reporterViolations);
       final Integer numInfo = perSeverity.get(INFO).size();
       final Integer numWarn = perSeverity.get(WARN).size();
       final Integer numError = perSeverity.get(ERROR).size();
@@ -214,7 +214,7 @@ public class ViolationsReporterApi {
 
     for (final Violation violation : violations) {
       final Set<Violation> perReporter =
-          getOrCreate(violationsPerSeverity, violation.getSeverity());
+          this.getOrCreate(violationsPerSeverity, violation.getSeverity());
       perReporter.add(violation);
     }
     return violationsPerSeverity;
@@ -223,7 +223,7 @@ public class ViolationsReporterApi {
   private Map<String, Set<Violation>> getViolationsPerFile(final Iterable<Violation> violations) {
     final Map<String, Set<Violation>> violationsPerFile = new TreeMap<>();
     for (final Violation violation : violations) {
-      final Set<Violation> perReporter = getOrCreate(violationsPerFile, violation.getFile());
+      final Set<Violation> perReporter = this.getOrCreate(violationsPerFile, violation.getFile());
       perReporter.add(violation);
     }
     return violationsPerFile;
@@ -234,7 +234,7 @@ public class ViolationsReporterApi {
     final Map<String, Set<Violation>> violationsPerReporter = new TreeMap<>();
     for (final Violation violation : violations) {
       final Set<Violation> perReporter =
-          getOrCreate(violationsPerReporter, violation.getReporter());
+          this.getOrCreate(violationsPerReporter, violation.getReporter());
       perReporter.add(violation);
     }
     return violationsPerReporter;

@@ -1,7 +1,6 @@
 package se.bjurr.violations.git;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.assertj.core.util.Lists.newArrayList;
 import static se.bjurr.violations.lib.model.SEVERITY.ERROR;
 import static se.bjurr.violations.lib.model.SEVERITY.INFO;
 import static se.bjurr.violations.lib.model.Violation.violationBuilder;
@@ -9,7 +8,8 @@ import static se.bjurr.violations.lib.reports.Parser.ANDROIDLINT;
 import static se.bjurr.violations.lib.reports.Parser.CPD;
 
 import java.io.File;
-import java.util.List;
+import java.util.Set;
+import java.util.TreeSet;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import se.bjurr.violations.lib.model.Violation;
@@ -39,14 +39,12 @@ public class ViolationsGitTest {
             .setStartLine(23) //
             .setMessage("asd") //
             .build();
-    final List<Violation> violations =
-        newArrayList( //
-            violation1, //
-            violation2 //
-            );
+    final Set<Violation> violations = new TreeSet<>();
+    violations.add(violation1);
+    violations.add(violation2);
     final ViolationsGit violationsGit = new ViolationsGit(violations);
 
-    final List<Violation> filteredViolations =
+    final Set<Violation> filteredViolations =
         violationsGit.getViolationsInChangeset(repo, from, to);
 
     assertThat(filteredViolations) //
