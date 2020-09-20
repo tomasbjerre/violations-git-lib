@@ -3,6 +3,15 @@
 
 Changelog of Violations git lib.
 
+## 1.38
+### No issue
+
+**violations-lib 1.128**
+
+
+[99a9c6cace709f3](https://github.com/tomasbjerre/violations-git-lib/commit/99a9c6cace709f3) Tomas Bjerre *2020-09-20 12:57:00*
+
+
 ## 1.37
 ### No issue
 
