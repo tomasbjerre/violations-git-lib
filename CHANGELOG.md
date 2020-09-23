@@ -3,6 +3,15 @@
 
 Changelog of Violations git lib.
 
+## 1.39
+### No issue
+
+**Allow Checkstyle reports with no line**
+
+
+[8d04676c080212f](https://github.com/tomasbjerre/violations-git-lib/commit/8d04676c080212f) Tomas Bjerre *2020-09-23 15:51:22*
+
+
 ## 1.38
 ### No issue
 
