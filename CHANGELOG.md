@@ -3,6 +3,15 @@
 
 Changelog of Violations git lib.
 
+## 1.40
+### No issue
+
+**Find Security Bugs messages**
+
+
+[037f8764dbccca1](https://github.com/tomasbjerre/violations-git-lib/commit/037f8764dbccca1) Tomas Bjerre *2020-09-27 16:17:09*
+
+
 ## 1.39
 ### No issue
 
