@@ -3,6 +3,15 @@
 
 Changelog of Violations git lib.
 
+## 1.41
+### GitHub #112   
+
+**check_name and engine_name in CodeClimate**
+
+
+[a691ebb7bdde08e](https://github.com/tomasbjerre/violations-git-lib/commit/a691ebb7bdde08e) Tomas Bjerre *2020-10-04 07:22:57*
+
+
 ## 1.40
 ### No issue
 
