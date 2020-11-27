@@ -3,6 +3,15 @@
 
 Changelog of Violations git lib.
 
+## 1.43
+### No issue
+
+**violations-lib 1.137**
+
+
+[33f041287bd656a](https://github.com/tomasbjerre/violations-git-lib/commit/33f041287bd656a) Tomas Bjerre *2020-11-27 13:11:21*
+
+
 ## 1.42
 ### No issue
 
