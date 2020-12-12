@@ -3,6 +3,15 @@
 
 Changelog of Violations git lib.
 
+## 1.44
+### No issue
+
+**Using PathParserUtil from violations-lib**
+
+
+[591644dbbce55ae](https://github.com/tomasbjerre/violations-git-lib/commit/591644dbbce55ae) Tomas Bjerre *2020-12-12 07:40:02*
+
+
 ## 1.43
 ### No issue
 
