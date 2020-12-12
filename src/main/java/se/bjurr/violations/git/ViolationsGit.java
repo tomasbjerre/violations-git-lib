@@ -6,6 +6,7 @@ import java.util.Set;
 import java.util.TreeSet;
 import se.bjurr.violations.git.data.DiffsPerFile;
 import se.bjurr.violations.lib.model.Violation;
+import se.bjurr.violations.lib.util.PatchParserUtil;
 
 public class ViolationsGit {
   private final Set<Violation> violations;
@@ -23,8 +24,7 @@ public class ViolationsGit {
       if (patchStringOpt.isPresent()) {
         final String patchString = patchStringOpt.get();
         final Integer violatedLine = candidate.getStartLine();
-        final Optional<Integer> lineOpt = PatchParser.findLineInDiff(patchString, violatedLine);
-        if (lineOpt.isPresent()) {
+        if (new PatchParserUtil(patchString).isLineInDiff(violatedLine)) {
           filtered.add(candidate);
         }
       }
