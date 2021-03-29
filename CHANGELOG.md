@@ -4,6 +4,27 @@
 Changelog of Violations git lib.
 
 
+## 1.45
+ 
+  
+   
+   
+### GitHub #121   
+   
+  
+  
+
+  
+**interpreting Fatal in AndroidLint as Error**
+
+
+
+[9caf45e0b5562e8](https://github.com/tomasbjerre/violations-git-lib/commit/9caf45e0b5562e8) Tomas Bjerre *2021-03-29 14:54:03*
+
+  
+
+ 
+
 ## 1.44
  
   
