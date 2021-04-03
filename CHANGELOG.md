@@ -3,6 +3,15 @@
 
 Changelog of violations-git-lib.
 
+## 1.46.2
+### No issue
+
+**relocate se**
+
+
+[9de1ff17ceb40b6](https://github.com/tomasbjerre/violations-git-lib/commit/9de1ff17ceb40b6) Tomas Bjerre *2021-04-03 19:11:17*
+
+
 ## 1.46.1
 ### No issue
 
