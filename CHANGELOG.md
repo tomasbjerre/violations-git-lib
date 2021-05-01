@@ -3,6 +3,15 @@
 
 Changelog of violations-git-lib.
 
+## 1.46.3
+### No issue
+
+**more logging when checking diff**
+
+
+[c00f435c5257505](https://github.com/tomasbjerre/violations-git-lib/commit/c00f435c5257505) Tomas Bjerre *2021-05-01 06:46:12*
+
+
 ## 1.46.2
 ### No issue
 
