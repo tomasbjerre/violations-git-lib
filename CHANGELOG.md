@@ -1,455 +1,710 @@
-
 # violations-git-lib changelog
 
 Changelog of violations-git-lib.
 
-## 1.46.4
-### No issue
+## [1.46.4](https://github.com/tomasbjerre/violations-git-lib/releases/tag/1.46.4) (2021-05-01)
+
+
+
+
+
+
+
+### Other changes
 
 **more logging when checking diff**
 
 
-[4fc505b43745155](https://github.com/tomasbjerre/violations-git-lib/commit/4fc505b43745155) Tomas Bjerre *2021-05-01 07:03:09*
+[4fc50](https://github.com/tomasbjerre/violations-git-lib/commit/4fc505b43745155) Tomas Bjerre *2021-05-01 07:03:09*
+
+## [1.46.3](https://github.com/tomasbjerre/violations-git-lib/releases/tag/1.46.3) (2021-05-01)
 
 
-## 1.46.3
-### No issue
+
+
+
+
+
+### Other changes
 
 **more logging when checking diff**
 
 
-[c00f435c5257505](https://github.com/tomasbjerre/violations-git-lib/commit/c00f435c5257505) Tomas Bjerre *2021-05-01 06:46:12*
+[c00f4](https://github.com/tomasbjerre/violations-git-lib/commit/c00f435c5257505) Tomas Bjerre *2021-05-01 06:46:12*
+
+## [1.46.2](https://github.com/tomasbjerre/violations-git-lib/releases/tag/1.46.2) (2021-04-03)
 
 
-## 1.46.2
-### No issue
+
+
+
+
+
+### Other changes
 
 **relocate se**
 
 
-[9de1ff17ceb40b6](https://github.com/tomasbjerre/violations-git-lib/commit/9de1ff17ceb40b6) Tomas Bjerre *2021-04-03 19:11:17*
+[9de1f](https://github.com/tomasbjerre/violations-git-lib/commit/9de1ff17ceb40b6) Tomas Bjerre *2021-04-03 19:11:17*
+
+## [1.46.1](https://github.com/tomasbjerre/violations-git-lib/releases/tag/1.46.1) (2021-04-03)
 
 
-## 1.46.1
-### No issue
+
+
+
+
+
+### Other changes
 
 **new build script**
 
 
-[34074657fc4f348](https://github.com/tomasbjerre/violations-git-lib/commit/34074657fc4f348) Tomas Bjerre *2021-04-03 18:42:04*
+[34074](https://github.com/tomasbjerre/violations-git-lib/commit/34074657fc4f348) Tomas Bjerre *2021-04-03 18:42:04*
+
+## [1.45](https://github.com/tomasbjerre/violations-git-lib/releases/tag/1.45) (2021-03-29)
 
 
-## 1.45
-### GitHub #121   
-
-**interpreting Fatal in AndroidLint as Error**
 
 
-[9caf45e0b5562e8](https://github.com/tomasbjerre/violations-git-lib/commit/9caf45e0b5562e8) Tomas Bjerre *2021-03-29 14:54:03*
 
 
-## 1.44
-### No issue
+
+### Other changes
+
+**interpreting Fatal in AndroidLint as Error #121**
+
+
+[9caf4](https://github.com/tomasbjerre/violations-git-lib/commit/9caf45e0b5562e8) Tomas Bjerre *2021-03-29 14:54:03*
+
+## [1.44](https://github.com/tomasbjerre/violations-git-lib/releases/tag/1.44) (2020-12-12)
+
+
+
+
+
+
+
+### Other changes
 
 **Using PathParserUtil from violations-lib**
 
 
-[591644dbbce55ae](https://github.com/tomasbjerre/violations-git-lib/commit/591644dbbce55ae) Tomas Bjerre *2020-12-12 07:40:02*
+[59164](https://github.com/tomasbjerre/violations-git-lib/commit/591644dbbce55ae) Tomas Bjerre *2020-12-12 07:40:02*
+
+## [1.43](https://github.com/tomasbjerre/violations-git-lib/releases/tag/1.43) (2020-11-27)
 
 
-## 1.43
-### No issue
+
+
+
+
+
+### Other changes
 
 **violations-lib 1.137**
 
 
-[33f041287bd656a](https://github.com/tomasbjerre/violations-git-lib/commit/33f041287bd656a) Tomas Bjerre *2020-11-27 13:11:21*
+[33f04](https://github.com/tomasbjerre/violations-git-lib/commit/33f041287bd656a) Tomas Bjerre *2020-11-27 13:11:21*
+
+## [1.42](https://github.com/tomasbjerre/violations-git-lib/releases/tag/1.42) (2020-10-04)
 
 
-## 1.42
-### No issue
-
-**check_name and engine_name in CodeClimate**
 
 
-[ecf6eadbbe59040](https://github.com/tomasbjerre/violations-git-lib/commit/ecf6eadbbe59040) Tomas Bjerre *2020-10-04 10:24:13*
 
 
-## 1.41
-### GitHub #112   
+
+### Other changes
 
 **check_name and engine_name in CodeClimate**
 
 
-[a691ebb7bdde08e](https://github.com/tomasbjerre/violations-git-lib/commit/a691ebb7bdde08e) Tomas Bjerre *2020-10-04 07:22:57*
+[ecf6e](https://github.com/tomasbjerre/violations-git-lib/commit/ecf6eadbbe59040) Tomas Bjerre *2020-10-04 10:24:13*
+
+## [1.41](https://github.com/tomasbjerre/violations-git-lib/releases/tag/1.41) (2020-10-04)
 
 
-## 1.40
-### No issue
+
+
+
+
+
+### Other changes
+
+**check_name and engine_name in CodeClimate #112**
+
+
+[a691e](https://github.com/tomasbjerre/violations-git-lib/commit/a691ebb7bdde08e) Tomas Bjerre *2020-10-04 07:22:57*
+
+## [1.40](https://github.com/tomasbjerre/violations-git-lib/releases/tag/1.40) (2020-09-27)
+
+
+
+
+
+
+
+### Other changes
 
 **Find Security Bugs messages**
 
 
-[037f8764dbccca1](https://github.com/tomasbjerre/violations-git-lib/commit/037f8764dbccca1) Tomas Bjerre *2020-09-27 16:17:09*
+[037f8](https://github.com/tomasbjerre/violations-git-lib/commit/037f8764dbccca1) Tomas Bjerre *2020-09-27 16:17:09*
+
+## [1.39](https://github.com/tomasbjerre/violations-git-lib/releases/tag/1.39) (2020-09-23)
 
 
-## 1.39
-### No issue
+
+
+
+
+
+### Other changes
 
 **Allow Checkstyle reports with no line**
 
 
-[8d04676c080212f](https://github.com/tomasbjerre/violations-git-lib/commit/8d04676c080212f) Tomas Bjerre *2020-09-23 15:51:22*
+[8d046](https://github.com/tomasbjerre/violations-git-lib/commit/8d04676c080212f) Tomas Bjerre *2020-09-23 15:51:22*
+
+## [1.38](https://github.com/tomasbjerre/violations-git-lib/releases/tag/1.38) (2020-09-20)
 
 
-## 1.38
-### No issue
+
+
+
+
+
+### Other changes
 
 **violations-lib 1.128**
 
 
-[99a9c6cace709f3](https://github.com/tomasbjerre/violations-git-lib/commit/99a9c6cace709f3) Tomas Bjerre *2020-09-20 12:57:00*
+[99a9c](https://github.com/tomasbjerre/violations-git-lib/commit/99a9c6cace709f3) Tomas Bjerre *2020-09-20 12:57:00*
+
+## [1.37](https://github.com/tomasbjerre/violations-git-lib/releases/tag/1.37) (2020-07-05)
 
 
-## 1.37
-### No issue
-
-**New: custom logging in violations-lib**
 
 
-[9ce6e2f8bd357b5](https://github.com/tomasbjerre/violations-git-lib/commit/9ce6e2f8bd357b5) Tomas Bjerre *2020-07-05 14:29:04*
 
 
-## 1.36
-### No issue
+
+
+## [1.36](https://github.com/tomasbjerre/violations-git-lib/releases/tag/1.36) (2020-06-26)
+
+
+
+
+
+
+
+### Other changes
 
 **Allow missing message in JUnit report**
 
 
-[bab0fc96276a5e6](https://github.com/tomasbjerre/violations-git-lib/commit/bab0fc96276a5e6) Tomas Bjerre *2020-06-26 17:03:45*
+[bab0f](https://github.com/tomasbjerre/violations-git-lib/commit/bab0fc96276a5e6) Tomas Bjerre *2020-06-26 17:03:45*
+
+## [1.35](https://github.com/tomasbjerre/violations-git-lib/releases/tag/1.35) (2020-03-29)
 
 
-## 1.35
-### GitHub #1   
-
-**Not including lines in codeclimate fingerprint tomasbjerre/violations-maven-plugin**
 
 
-[4cfb8f0b6d91bf8](https://github.com/tomasbjerre/violations-git-lib/commit/4cfb8f0b6d91bf8) Tomas Bjerre *2020-03-29 14:12:09*
 
 
-## 1.34
-### GitHub #82   
 
-**CPPCheckParser with auto closed <error/> tags**
+### Other changes
 
-
-[3772002fed3afc3](https://github.com/tomasbjerre/violations-git-lib/commit/3772002fed3afc3) Tomas Bjerre *2020-02-03 16:07:23*
+**Not including lines in codeclimate fingerprint tomasbjerre/violations-maven-plugin#1**
 
 
-## 1.33
-### No issue
+[4cfb8](https://github.com/tomasbjerre/violations-git-lib/commit/4cfb8f0b6d91bf8) Tomas Bjerre *2020-03-29 14:12:09*
+
+## [1.34](https://github.com/tomasbjerre/violations-git-lib/releases/tag/1.34) (2020-02-03)
+
+
+
+
+
+
+
+### Other changes
+
+**CPPCheckParser with auto closed <error/> tags #82**
+
+
+[37720](https://github.com/tomasbjerre/violations-git-lib/commit/3772002fed3afc3) Tomas Bjerre *2020-02-03 16:07:23*
+
+## [1.33](https://github.com/tomasbjerre/violations-git-lib/releases/tag/1.33) (2020-01-19)
+
+
+
+
+
+
+
+### Other changes
 
 **Filtering out duplicated violations**
 
 
-[d7d5ed4fb39faef](https://github.com/tomasbjerre/violations-git-lib/commit/d7d5ed4fb39faef) Tomas Bjerre *2020-01-19 15:57:02*
+[d7d5e](https://github.com/tomasbjerre/violations-git-lib/commit/d7d5ed4fb39faef) Tomas Bjerre *2020-01-19 15:57:02*
+
+## [1.32](https://github.com/tomasbjerre/violations-git-lib/releases/tag/1.32) (2020-01-03)
 
 
-## 1.32
-### GitHub #80   
-
-**Add support for sonar issue report formats >= v7.5 tomasbjerre/violations-lib**
 
 
-[f6442d58f18fdde](https://github.com/tomasbjerre/violations-git-lib/commit/f6442d58f18fdde) Tomas Bjerre *2020-01-03 06:46:37*
 
 
-## 1.31
-### GitHub #79   
 
-**Protolint tomasbjerre/violations-lib**
+### Other changes
 
-
-[f803456bc61b6cd](https://github.com/tomasbjerre/violations-git-lib/commit/f803456bc61b6cd) Tomas Bjerre *2019-10-22 03:38:27*
+**Add support for sonar issue report formats >= v7.5 tomasbjerre/violations-lib#80**
 
 
-## 1.30
-### No issue
+[f6442](https://github.com/tomasbjerre/violations-git-lib/commit/f6442d58f18fdde) Tomas Bjerre *2020-01-03 06:46:37*
+
+## [1.31](https://github.com/tomasbjerre/violations-git-lib/releases/tag/1.31) (2019-10-22)
+
+
+
+
+
+
+
+### Other changes
+
+**Protolint tomasbjerre/violations-lib#79**
+
+
+[f8034](https://github.com/tomasbjerre/violations-git-lib/commit/f803456bc61b6cd) Tomas Bjerre *2019-10-22 03:38:27*
+
+## [1.30](https://github.com/tomasbjerre/violations-git-lib/releases/tag/1.30) (2019-10-10)
+
+
+
+
+
+
+
+### Other changes
 
 **Corrections in Pydocstyle**
 
 
-[e95819d30313400](https://github.com/tomasbjerre/violations-git-lib/commit/e95819d30313400) Tomas Bjerre *2019-10-10 15:58:09*
-
+[e9581](https://github.com/tomasbjerre/violations-git-lib/commit/e95819d30313400) Tomas Bjerre *2019-10-10 15:58:09*
 **1.29-SNAPSHOT**
 
 
-[fd316aa350437bf](https://github.com/tomasbjerre/violations-git-lib/commit/fd316aa350437bf) Tomas Bjerre *2019-10-09 15:29:29*
+[fd316](https://github.com/tomasbjerre/violations-git-lib/commit/fd316aa350437bf) Tomas Bjerre *2019-10-09 15:29:29*
+
+## [1.28](https://github.com/tomasbjerre/violations-git-lib/releases/tag/1.28) (2019-10-08)
 
 
-## 1.28
-### No issue
+
+
+
+
+
+### Other changes
 
 **1.28**
 
 
-[1a5591c3a3fdbc8](https://github.com/tomasbjerre/violations-git-lib/commit/1a5591c3a3fdbc8) Tomas Bjerre *2019-10-08 17:54:34*
-
+[1a559](https://github.com/tomasbjerre/violations-git-lib/commit/1a5591c3a3fdbc8) Tomas Bjerre *2019-10-08 17:54:34*
 **Setting column widths to min 0 and max to given width**
 
 
-[98c0a7985589d86](https://github.com/tomasbjerre/violations-git-lib/commit/98c0a7985589d86) Tomas Bjerre *2019-10-08 17:48:54*
-
+[98c0a](https://github.com/tomasbjerre/violations-git-lib/commit/98c0a7985589d86) Tomas Bjerre *2019-10-08 17:48:54*
 **doc**
 
 
-[816c6081d3efc76](https://github.com/tomasbjerre/violations-git-lib/commit/816c6081d3efc76) Tomas Bjerre *2019-10-06 16:46:46*
+[816c6](https://github.com/tomasbjerre/violations-git-lib/commit/816c6081d3efc76) Tomas Bjerre *2019-10-06 16:46:46*
+
+## [1.26](https://github.com/tomasbjerre/violations-git-lib/releases/tag/1.26) (2019-10-05)
 
 
-## 1.26
-### No issue
+
+
+
+
+
+### Other changes
 
 **More logging**
 
 
-[1f06ea1ce263fd2](https://github.com/tomasbjerre/violations-git-lib/commit/1f06ea1ce263fd2) Tomas Bjerre *2019-10-05 06:22:44*
+[1f06e](https://github.com/tomasbjerre/violations-git-lib/commit/1f06ea1ce263fd2) Tomas Bjerre *2019-10-05 06:22:44*
+
+## [1.25](https://github.com/tomasbjerre/violations-git-lib/releases/tag/1.25) (2019-10-04)
 
 
-## 1.25
-### No issue
+
+
+
+
+
+### Other changes
 
 **Always front slashes when searching FS**
 
 
-[2cad5f1bee036fc](https://github.com/tomasbjerre/violations-git-lib/commit/2cad5f1bee036fc) Tomas Bjerre *2019-10-04 14:47:10*
+[2cad5](https://github.com/tomasbjerre/violations-git-lib/commit/2cad5f1bee036fc) Tomas Bjerre *2019-10-04 14:47:10*
+
+## [1.24](https://github.com/tomasbjerre/violations-git-lib/releases/tag/1.24) (2019-10-03)
 
 
-## 1.24
-### No issue
+
+
+
+
+
+### Other changes
 
 **Using ASCII chars in tables**
 
 
-[be0123f4b02173b](https://github.com/tomasbjerre/violations-git-lib/commit/be0123f4b02173b) Tomas Bjerre *2019-10-03 18:03:20*
-
+[be012](https://github.com/tomasbjerre/violations-git-lib/commit/be0123f4b02173b) Tomas Bjerre *2019-10-03 18:03:20*
 **Create FUNDING.yml**
 
 
-[7dbc6100856777f](https://github.com/tomasbjerre/violations-git-lib/commit/7dbc6100856777f) Tomas Bjerre *2019-09-28 06:59:58*
+[7dbc6](https://github.com/tomasbjerre/violations-git-lib/commit/7dbc6100856777f) Tomas Bjerre *2019-09-28 06:59:58*
+
+## [1.23](https://github.com/tomasbjerre/violations-git-lib/releases/tag/1.23) (2019-09-07)
 
 
-## 1.23
-### No issue
+
+
+
+
+
+### Other changes
 
 **CodeClimate**
 
 
-[249df712bf29014](https://github.com/tomasbjerre/violations-git-lib/commit/249df712bf29014) Tomas Bjerre *2019-09-07 12:32:00*
+[249df](https://github.com/tomasbjerre/violations-git-lib/commit/249df712bf29014) Tomas Bjerre *2019-09-07 12:32:00*
+
+## [1.22](https://github.com/tomasbjerre/violations-git-lib/releases/tag/1.22) (2019-08-03)
 
 
-## 1.22
-### No issue
+
+
+
+
+
+### Other changes
 
 **Changing name of JSHINT parser to JSLINT**
 
 
-[e63c90f3d12bf1c](https://github.com/tomasbjerre/violations-git-lib/commit/e63c90f3d12bf1c) Tomas Bjerre *2019-08-03 12:09:38*
-
+[e63c9](https://github.com/tomasbjerre/violations-git-lib/commit/e63c90f3d12bf1c) Tomas Bjerre *2019-08-03 12:09:38*
 **Changing name of JSHINT parser to JSLINT**
 
 
-[6fb4e24de567395](https://github.com/tomasbjerre/violations-git-lib/commit/6fb4e24de567395) Tomas Bjerre *2019-08-03 12:07:59*
+[6fb4e](https://github.com/tomasbjerre/violations-git-lib/commit/6fb4e24de567395) Tomas Bjerre *2019-08-03 12:07:59*
+
+## [1.21](https://github.com/tomasbjerre/violations-git-lib/releases/tag/1.21) (2019-03-30)
 
 
-## 1.21
-### No issue
+
+
+
+
+
+### Other changes
 
 **Correcting Sonar severity**
 
 
-[703913ae5c81931](https://github.com/tomasbjerre/violations-git-lib/commit/703913ae5c81931) Tomas Bjerre *2019-03-30 19:50:15*
+[70391](https://github.com/tomasbjerre/violations-git-lib/commit/703913ae5c81931) Tomas Bjerre *2019-03-30 19:50:15*
+
+## [1.20](https://github.com/tomasbjerre/violations-git-lib/releases/tag/1.20) (2019-03-23)
 
 
-## 1.20
-### No issue
+
+
+
+
+
+### Other changes
 
 **Sonar Report**
 
 
-[5b3cfa9fdb399c6](https://github.com/tomasbjerre/violations-git-lib/commit/5b3cfa9fdb399c6) Tomas Bjerre *2019-03-23 14:53:48*
+[5b3cf](https://github.com/tomasbjerre/violations-git-lib/commit/5b3cfa9fdb399c6) Tomas Bjerre *2019-03-23 14:53:48*
+
+## [1.19](https://github.com/tomasbjerre/violations-git-lib/releases/tag/1.19) (2019-03-13)
 
 
-## 1.19
-### No issue
+
+
+
+
+
+### Other changes
 
 **Klocwork line numbers**
 
 
-[3cb53f1a93f4302](https://github.com/tomasbjerre/violations-git-lib/commit/3cb53f1a93f4302) Tomas Bjerre *2019-03-13 19:02:26*
+[3cb53](https://github.com/tomasbjerre/violations-git-lib/commit/3cb53f1a93f4302) Tomas Bjerre *2019-03-13 19:02:26*
+
+## [1.18](https://github.com/tomasbjerre/violations-git-lib/releases/tag/1.18) (2019-03-07)
 
 
-## 1.18
-### No issue
+
+
+
+
+
+### Other changes
 
 **golangci-lint**
 
 
-[54ab7ad5438a027](https://github.com/tomasbjerre/violations-git-lib/commit/54ab7ad5438a027) Tomas Bjerre *2019-03-07 15:27:01*
+[54ab7](https://github.com/tomasbjerre/violations-git-lib/commit/54ab7ad5438a027) Tomas Bjerre *2019-03-07 15:27:01*
+
+## [1.17](https://github.com/tomasbjerre/violations-git-lib/releases/tag/1.17) (2019-01-14)
 
 
-## 1.17
-### No issue
+
+
+
+
+
+### Other changes
 
 **Avoiding faulty slash with CodeNarc**
 
 
-[872d85f7e5126da](https://github.com/tomasbjerre/violations-git-lib/commit/872d85f7e5126da) Tomas Bjerre *2019-01-14 17:13:09*
+[872d8](https://github.com/tomasbjerre/violations-git-lib/commit/872d85f7e5126da) Tomas Bjerre *2019-01-14 17:13:09*
+
+## [1.16](https://github.com/tomasbjerre/violations-git-lib/releases/tag/1.16) (2019-01-09)
 
 
-## 1.16
-### No issue
+
+
+
+
+
+### Other changes
 
 **Making CodeNarc respect source directory**
 
 
-[f2b46f079958de8](https://github.com/tomasbjerre/violations-git-lib/commit/f2b46f079958de8) Tomas Bjerre *2019-01-09 18:43:24*
+[f2b46](https://github.com/tomasbjerre/violations-git-lib/commit/f2b46f079958de8) Tomas Bjerre *2019-01-09 18:43:24*
+
+## [1.15](https://github.com/tomasbjerre/violations-git-lib/releases/tag/1.15) (2018-09-23)
 
 
-## 1.15
-### No issue
+
+
+
+
+
+### Other changes
 
 **Automating reporters in readme**
 
 
-[004ac77d47d2dfc](https://github.com/tomasbjerre/violations-git-lib/commit/004ac77d47d2dfc) Tomas Bjerre *2018-09-23 12:24:25*
+[004ac](https://github.com/tomasbjerre/violations-git-lib/commit/004ac77d47d2dfc) Tomas Bjerre *2018-09-23 12:24:25*
+
+## [1.14](https://github.com/tomasbjerre/violations-git-lib/releases/tag/1.14) (2018-09-20)
 
 
-## 1.14
-### No issue
+
+
+
+
+
+### Other changes
 
 **Correcting Kotlin parsers**
 
 
-[4dc52646923cffb](https://github.com/tomasbjerre/violations-git-lib/commit/4dc52646923cffb) Tomas Bjerre *2018-09-20 23:43:00*
+[4dc52](https://github.com/tomasbjerre/violations-git-lib/commit/4dc52646923cffb) Tomas Bjerre *2018-09-20 23:43:00*
+
+## [1.13](https://github.com/tomasbjerre/violations-git-lib/releases/tag/1.13) (2018-09-20)
 
 
-## 1.13
-### No issue
+
+
+
+
+
+### Other changes
 
 **Kotlin Maven and Gradle parsers**
 
 
-[a15ed0f19c159fc](https://github.com/tomasbjerre/violations-git-lib/commit/a15ed0f19c159fc) Tomas Bjerre *2018-09-20 13:56:39*
+[a15ed](https://github.com/tomasbjerre/violations-git-lib/commit/a15ed0f19c159fc) Tomas Bjerre *2018-09-20 13:56:39*
+
+## [1.12](https://github.com/tomasbjerre/violations-git-lib/releases/tag/1.12) (2018-09-17)
 
 
-## 1.12
-### No issue
+
+
+
+
+
+### Other changes
 
 **Fix optional rule in YAMLLint**
 
 
-[f21c01ffb66d955](https://github.com/tomasbjerre/violations-git-lib/commit/f21c01ffb66d955) Tomas Bjerre *2018-09-17 13:15:10*
+[f21c0](https://github.com/tomasbjerre/violations-git-lib/commit/f21c01ffb66d955) Tomas Bjerre *2018-09-17 13:15:10*
+
+## [1.11](https://github.com/tomasbjerre/violations-git-lib/releases/tag/1.11) (2018-09-15)
 
 
-## 1.11
-### No issue
+
+
+
+
+
+### Other changes
 
 **YAMLLint**
 
 
-[18ac1c7c565c046](https://github.com/tomasbjerre/violations-git-lib/commit/18ac1c7c565c046) Tomas Bjerre *2018-09-15 07:41:50*
+[18ac1](https://github.com/tomasbjerre/violations-git-lib/commit/18ac1c7c565c046) Tomas Bjerre *2018-09-15 07:41:50*
+
+## [1.10](https://github.com/tomasbjerre/violations-git-lib/releases/tag/1.10) (2018-09-12)
 
 
-## 1.10
-### No issue
+
+
+
+
+
+### Other changes
 
 **Adding Fliptables dependency**
 
 
-[70ef7b26dc97fcf](https://github.com/tomasbjerre/violations-git-lib/commit/70ef7b26dc97fcf) Tomas Bjerre *2018-09-12 20:25:09*
+[70ef7](https://github.com/tomasbjerre/violations-git-lib/commit/70ef7b26dc97fcf) Tomas Bjerre *2018-09-12 20:25:09*
+
+## [1.9](https://github.com/tomasbjerre/violations-git-lib/releases/tag/1.9) (2018-02-13)
 
 
-## 1.9
-### No issue
+
+
+
+
+
+### Other changes
 
 **PCLint**
 
 
-[7eb822bcac60c15](https://github.com/tomasbjerre/violations-git-lib/commit/7eb822bcac60c15) Tomas Bjerre *2018-02-13 18:34:24*
+[7eb82](https://github.com/tomasbjerre/violations-git-lib/commit/7eb822bcac60c15) Tomas Bjerre *2018-02-13 18:34:24*
+
+## [1.8](https://github.com/tomasbjerre/violations-git-lib/releases/tag/1.8) (2018-01-14)
 
 
-## 1.8
-### No issue
+
+
+
+
+
+### Other changes
 
 **Google error-prone**
 
 
-[1ab3502ca0456ed](https://github.com/tomasbjerre/violations-git-lib/commit/1ab3502ca0456ed) Tomas Bjerre *2018-01-14 11:26:26*
-
+[1ab35](https://github.com/tomasbjerre/violations-git-lib/commit/1ab3502ca0456ed) Tomas Bjerre *2018-01-14 11:26:26*
 **1.7**
 
 
-[774244a6386872d](https://github.com/tomasbjerre/violations-git-lib/commit/774244a6386872d) Tomas Bjerre *2018-01-13 19:27:06*
-
+[77424](https://github.com/tomasbjerre/violations-git-lib/commit/774244a6386872d) Tomas Bjerre *2018-01-13 19:27:06*
 **Max column widths**
 
 
-[82bae9a13061e57](https://github.com/tomasbjerre/violations-git-lib/commit/82bae9a13061e57) Tomas Bjerre *2018-01-13 19:11:04*
+[82bae](https://github.com/tomasbjerre/violations-git-lib/commit/82bae9a13061e57) Tomas Bjerre *2018-01-13 19:11:04*
+
+## [1.6](https://github.com/tomasbjerre/violations-git-lib/releases/tag/1.6) (2017-12-31)
 
 
-## 1.6
-### No issue
+
+
+
+
+
+### Other changes
 
 **Un-escape XML when reading attributes**
 
 
-[1ce3aa34f0559b4](https://github.com/tomasbjerre/violations-git-lib/commit/1ce3aa34f0559b4) Tomas Bjerre *2017-12-31 06:00:32*
+[1ce3a](https://github.com/tomasbjerre/violations-git-lib/commit/1ce3aa34f0559b4) Tomas Bjerre *2017-12-31 06:00:32*
+
+## [1.5](https://github.com/tomasbjerre/violations-git-lib/releases/tag/1.5) (2017-12-30)
 
 
-## 1.5
-### No issue
-
-**Relocating to correct Java identifier**
 
 
-[0483e6b8b304e45](https://github.com/tomasbjerre/violations-git-lib/commit/0483e6b8b304e45) Tomas Bjerre *2017-12-30 18:47:24*
 
 
-## 1.4
-### No issue
+
+### Other changes
 
 **Relocating to correct Java identifier**
 
 
-[e6e39b520cfb139](https://github.com/tomasbjerre/violations-git-lib/commit/e6e39b520cfb139) Tomas Bjerre *2017-12-30 18:41:51*
+[0483e](https://github.com/tomasbjerre/violations-git-lib/commit/0483e6b8b304e45) Tomas Bjerre *2017-12-30 18:47:24*
+
+## [1.4](https://github.com/tomasbjerre/violations-git-lib/releases/tag/1.4) (2017-12-30)
 
 
-## 1.3
-### No issue
+
+
+
+
+
+### Other changes
+
+**Relocating to correct Java identifier**
+
+
+[e6e39](https://github.com/tomasbjerre/violations-git-lib/commit/e6e39b520cfb139) Tomas Bjerre *2017-12-30 18:41:51*
+
+## [1.3](https://github.com/tomasbjerre/violations-git-lib/releases/tag/1.3) (2017-12-30)
+
+
+
+
+
+
+
+### Other changes
 
 **Trying to make relocate work**
 
 
-[12417f1a298bd48](https://github.com/tomasbjerre/violations-git-lib/commit/12417f1a298bd48) Tomas Bjerre *2017-12-30 14:17:41*
+[12417](https://github.com/tomasbjerre/violations-git-lib/commit/12417f1a298bd48) Tomas Bjerre *2017-12-30 14:17:41*
+
+## [1.1](https://github.com/tomasbjerre/violations-git-lib/releases/tag/1.1) (2017-12-30)
 
 
-## 1.1
-### No issue
+
+
+
+
+
+### Other changes
 
 **1.1-SNAPSHOT**
 
 
-[a5a11980926dffb](https://github.com/tomasbjerre/violations-git-lib/commit/a5a11980926dffb) Tomas Bjerre *2017-12-30 10:23:24*
-
+[a5a11](https://github.com/tomasbjerre/violations-git-lib/commit/a5a11980926dffb) Tomas Bjerre *2017-12-30 10:23:24*
 **More work on 1.0**
 
 
-[3e6ff594c998592](https://github.com/tomasbjerre/violations-git-lib/commit/3e6ff594c998592) Tomas Bjerre *2017-12-30 10:21:23*
-
+[3e6ff](https://github.com/tomasbjerre/violations-git-lib/commit/3e6ff594c998592) Tomas Bjerre *2017-12-30 10:21:23*
 **Working on 1.0**
 
 
-[e98d8da041f6080](https://github.com/tomasbjerre/violations-git-lib/commit/e98d8da041f6080) Tomas Bjerre *2017-12-30 09:11:48*
+[e98d8](https://github.com/tomasbjerre/violations-git-lib/commit/e98d8da041f6080) Tomas Bjerre *2017-12-30 09:11:48*
 
-
+    
