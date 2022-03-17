@@ -2,6 +2,18 @@
 
 Changelog of violations-git-lib.
 
+## 1.46.17 (2022-03-17)
+
+
+
+
+
+### Bug Fixes
+
+-  correcting groupId ([f5673](https://github.com/tomasbjerre/violations-git-lib/commit/f5673aed152e955) Tomas Bjerre)  
+
+
+
 ## 1.46.16 (2022-03-16)
 
 
