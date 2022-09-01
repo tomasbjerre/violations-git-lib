@@ -22,10 +22,10 @@ apply from: project.buildscript.classLoader.getResource('main.gradle').toURI()
 
 dependencies {
  api 'se.bjurr.violations:violations-lib:1.+'
- api 'org.eclipse.jgit:org.eclipse.jgit:4.9.2.201712150930-r'
+ api 'org.eclipse.jgit:org.eclipse.jgit:6.2.0.202206071550-r'
  api 'de.vandermeer:asciitable:0.3.2'
 
- testImplementation 'junit:junit:4.12'
- testImplementation 'org.assertj:assertj-core:2.3.0'
- testImplementation 'org.slf4j:slf4j-simple:1.7.25'
+ testImplementation 'junit:junit:4.13.2'
+ testImplementation 'org.assertj:assertj-core:3.23.1'
+ testImplementation 'org.slf4j:slf4j-simple:2.0.0'
 }
