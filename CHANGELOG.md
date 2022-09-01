@@ -2,37 +2,25 @@
 
 Changelog of violations-git-lib.
 
+## 1.47.0 (2022-09-01)
+
+### Features
+
+-  stepping violations-lib ([2d2d6](https://github.com/tomasbjerre/violations-git-lib/commit/2d2d645bcbe821d) Tomas Bjerre)  
+
 ## 1.46.17 (2022-03-17)
-
-
-
-
 
 ### Bug Fixes
 
 -  correcting groupId ([f5673](https://github.com/tomasbjerre/violations-git-lib/commit/f5673aed152e955) Tomas Bjerre)  
 
-
-
 ## 1.46.16 (2022-03-16)
-
-
-
-
 
 ### Bug Fixes
 
 -  sarif parser with location references ([66bf0](https://github.com/tomasbjerre/violations-git-lib/commit/66bf067eb9145e4) Tomas Bjerre)  
 
-
-
 ## 1.46.4 (2021-05-01)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -44,12 +32,6 @@ Changelog of violations-git-lib.
 
 ## 1.46.3 (2021-05-01)
 
-
-
-
-
-
-
 ### Other changes
 
 **more logging when checking diff**
@@ -59,12 +41,6 @@ Changelog of violations-git-lib.
 
 
 ## 1.46.2 (2021-04-03)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -76,12 +52,6 @@ Changelog of violations-git-lib.
 
 ## 1.46.1 (2021-04-03)
 
-
-
-
-
-
-
 ### Other changes
 
 **new build script**
@@ -91,12 +61,6 @@ Changelog of violations-git-lib.
 
 
 ## 1.45 (2021-03-29)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -108,12 +72,6 @@ Changelog of violations-git-lib.
 
 ## 1.44 (2020-12-12)
 
-
-
-
-
-
-
 ### Other changes
 
 **Using PathParserUtil from violations-lib**
@@ -123,12 +81,6 @@ Changelog of violations-git-lib.
 
 
 ## 1.43 (2020-11-27)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -140,12 +92,6 @@ Changelog of violations-git-lib.
 
 ## 1.42 (2020-10-04)
 
-
-
-
-
-
-
 ### Other changes
 
 **check_name and engine_name in CodeClimate**
@@ -155,12 +101,6 @@ Changelog of violations-git-lib.
 
 
 ## 1.41 (2020-10-04)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -172,12 +112,6 @@ Changelog of violations-git-lib.
 
 ## 1.40 (2020-09-27)
 
-
-
-
-
-
-
 ### Other changes
 
 **Find Security Bugs messages**
@@ -187,12 +121,6 @@ Changelog of violations-git-lib.
 
 
 ## 1.39 (2020-09-23)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -204,12 +132,6 @@ Changelog of violations-git-lib.
 
 ## 1.38 (2020-09-20)
 
-
-
-
-
-
-
 ### Other changes
 
 **violations-lib 1.128**
@@ -220,20 +142,7 @@ Changelog of violations-git-lib.
 
 ## 1.37 (2020-07-05)
 
-
-
-
-
-
-
-
 ## 1.36 (2020-06-26)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -245,12 +154,6 @@ Changelog of violations-git-lib.
 
 ## 1.35 (2020-03-29)
 
-
-
-
-
-
-
 ### Other changes
 
 **Not including lines in codeclimate fingerprint tomasbjerre/violations-maven-plugin#1**
@@ -260,12 +163,6 @@ Changelog of violations-git-lib.
 
 
 ## 1.34 (2020-02-03)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -277,12 +174,6 @@ Changelog of violations-git-lib.
 
 ## 1.33 (2020-01-19)
 
-
-
-
-
-
-
 ### Other changes
 
 **Filtering out duplicated violations**
@@ -292,12 +183,6 @@ Changelog of violations-git-lib.
 
 
 ## 1.32 (2020-01-03)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -309,12 +194,6 @@ Changelog of violations-git-lib.
 
 ## 1.31 (2019-10-22)
 
-
-
-
-
-
-
 ### Other changes
 
 **Protolint tomasbjerre/violations-lib#79**
@@ -324,12 +203,6 @@ Changelog of violations-git-lib.
 
 
 ## 1.30 (2019-10-10)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -345,12 +218,6 @@ Changelog of violations-git-lib.
 
 
 ## 1.28 (2019-10-08)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -372,12 +239,6 @@ Changelog of violations-git-lib.
 
 ## 1.26 (2019-10-05)
 
-
-
-
-
-
-
 ### Other changes
 
 **More logging**
@@ -388,12 +249,6 @@ Changelog of violations-git-lib.
 
 ## 1.25 (2019-10-04)
 
-
-
-
-
-
-
 ### Other changes
 
 **Always front slashes when searching FS**
@@ -403,12 +258,6 @@ Changelog of violations-git-lib.
 
 
 ## 1.24 (2019-10-03)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -425,12 +274,6 @@ Changelog of violations-git-lib.
 
 ## 1.23 (2019-09-07)
 
-
-
-
-
-
-
 ### Other changes
 
 **CodeClimate**
@@ -440,12 +283,6 @@ Changelog of violations-git-lib.
 
 
 ## 1.22 (2019-08-03)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -462,12 +299,6 @@ Changelog of violations-git-lib.
 
 ## 1.21 (2019-03-30)
 
-
-
-
-
-
-
 ### Other changes
 
 **Correcting Sonar severity**
@@ -477,12 +308,6 @@ Changelog of violations-git-lib.
 
 
 ## 1.20 (2019-03-23)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -494,12 +319,6 @@ Changelog of violations-git-lib.
 
 ## 1.19 (2019-03-13)
 
-
-
-
-
-
-
 ### Other changes
 
 **Klocwork line numbers**
@@ -509,12 +328,6 @@ Changelog of violations-git-lib.
 
 
 ## 1.18 (2019-03-07)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -526,12 +339,6 @@ Changelog of violations-git-lib.
 
 ## 1.17 (2019-01-14)
 
-
-
-
-
-
-
 ### Other changes
 
 **Avoiding faulty slash with CodeNarc**
@@ -541,12 +348,6 @@ Changelog of violations-git-lib.
 
 
 ## 1.16 (2019-01-09)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -558,12 +359,6 @@ Changelog of violations-git-lib.
 
 ## 1.15 (2018-09-23)
 
-
-
-
-
-
-
 ### Other changes
 
 **Automating reporters in readme**
@@ -573,12 +368,6 @@ Changelog of violations-git-lib.
 
 
 ## 1.14 (2018-09-20)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -590,12 +379,6 @@ Changelog of violations-git-lib.
 
 ## 1.13 (2018-09-20)
 
-
-
-
-
-
-
 ### Other changes
 
 **Kotlin Maven and Gradle parsers**
@@ -605,12 +388,6 @@ Changelog of violations-git-lib.
 
 
 ## 1.12 (2018-09-17)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -622,12 +399,6 @@ Changelog of violations-git-lib.
 
 ## 1.11 (2018-09-15)
 
-
-
-
-
-
-
 ### Other changes
 
 **YAMLLint**
@@ -637,12 +408,6 @@ Changelog of violations-git-lib.
 
 
 ## 1.10 (2018-09-12)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -654,12 +419,6 @@ Changelog of violations-git-lib.
 
 ## 1.9 (2018-02-13)
 
-
-
-
-
-
-
 ### Other changes
 
 **PCLint**
@@ -669,12 +428,6 @@ Changelog of violations-git-lib.
 
 
 ## 1.8 (2018-01-14)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -696,12 +449,6 @@ Changelog of violations-git-lib.
 
 ## 1.6 (2017-12-31)
 
-
-
-
-
-
-
 ### Other changes
 
 **Un-escape XML when reading attributes**
@@ -711,12 +458,6 @@ Changelog of violations-git-lib.
 
 
 ## 1.5 (2017-12-30)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -728,12 +469,6 @@ Changelog of violations-git-lib.
 
 ## 1.4 (2017-12-30)
 
-
-
-
-
-
-
 ### Other changes
 
 **Relocating to correct Java identifier**
@@ -744,12 +479,6 @@ Changelog of violations-git-lib.
 
 ## 1.3 (2017-12-30)
 
-
-
-
-
-
-
 ### Other changes
 
 **Trying to make relocate work**
@@ -759,12 +488,6 @@ Changelog of violations-git-lib.
 
 
 ## 1.1 (2017-12-30)
-
-
-
-
-
-
 
 ### Other changes
 
