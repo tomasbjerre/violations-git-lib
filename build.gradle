@@ -21,11 +21,11 @@ project.ext.buildConfig = [
 apply from: project.buildscript.classLoader.getResource('main.gradle').toURI()
 
 dependencies {
- api 'se.bjurr.violations:violations-lib:1.155.1'
- api 'org.eclipse.jgit:org.eclipse.jgit:6.2.0.202206071550-r'
+ api 'se.bjurr.violations:violations-lib:1.155.2'
+ api 'org.eclipse.jgit:org.eclipse.jgit:5.13.1.202206130422-r'
  api 'de.vandermeer:asciitable:0.3.2'
 
  testImplementation 'junit:junit:4.13.2'
  testImplementation 'org.assertj:assertj-core:3.23.1'
- testImplementation 'org.slf4j:slf4j-simple:2.0.0'
+ testImplementation 'org.slf4j:slf4j-simple:2.0.2'
 }
