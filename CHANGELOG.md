@@ -2,6 +2,12 @@
 
 Changelog of violations-git-lib.
 
+## 1.47.2 (2022-09-24)
+
+### Bug Fixes
+
+-  relative in CodeClimate ([240f2](https://github.com/tomasbjerre/violations-git-lib/commit/240f26730c2e5b5) Tomas Bjerre)  
+
 ## 1.47.1 (2022-09-24)
 
 ### Bug Fixes
