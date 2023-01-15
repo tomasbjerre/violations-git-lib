@@ -2,6 +2,12 @@
 
 Changelog of violations-git-lib.
 
+## 1.47.3 (2023-01-15)
+
+### Bug Fixes
+
+-  producing valid sarif format ([d43b2](https://github.com/tomasbjerre/violations-git-lib/commit/d43b274b5e69a0b) Tomas Bjerre)  
+
 ## 1.47.2 (2022-09-24)
 
 ### Bug Fixes
