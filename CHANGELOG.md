@@ -2,6 +2,12 @@
 
 Changelog of violations-git-lib.
 
+## 1.47.4 (2023-01-15)
+
+### Bug Fixes
+
+-  avoid line 0 in sarif parser, invalid ([4f160](https://github.com/tomasbjerre/violations-git-lib/commit/4f1604aa3ee8ae0) Tomas Bjerre)  
+
 ## 1.47.3 (2023-01-15)
 
 ### Bug Fixes
