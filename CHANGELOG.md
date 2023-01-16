@@ -2,6 +2,12 @@
 
 Changelog of violations-git-lib.
 
+## 1.48.0 (2023-01-16)
+
+### Features
+
+-  ansible-later parser ([e800e](https://github.com/tomasbjerre/violations-git-lib/commit/e800e1736e07440) Tomas Bjerre)  
+
 ## 1.47.7 (2023-01-15)
 
 ### Bug Fixes
