@@ -2,6 +2,12 @@
 
 Changelog of violations-git-lib.
 
+## 1.49.0 (2023-01-19)
+
+### Features
+
+-  semgrep parser ([fac51](https://github.com/tomasbjerre/violations-git-lib/commit/fac513ea994d673) Tomas Bjerre)  
+
 ## 1.48.0 (2023-01-16)
 
 ### Features
