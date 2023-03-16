@@ -2,6 +2,12 @@
 
 Changelog of violations-git-lib.
 
+## 1.49.1 (2023-03-16)
+
+### Bug Fixes
+
+-  rule resolution in sarif ([b388a](https://github.com/tomasbjerre/violations-git-lib/commit/b388a82d4f3ad75) Tomas Bjerre)  
+
 ## 1.49.0 (2023-01-19)
 
 ### Features
