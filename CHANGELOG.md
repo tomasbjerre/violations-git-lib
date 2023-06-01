@@ -2,6 +2,12 @@
 
 Changelog of violations-git-lib.
 
+## 1.49.2 (2023-06-01)
+
+### Bug Fixes
+
+-  massive speed regression when processing lots of files ([1f796](https://github.com/tomasbjerre/violations-git-lib/commit/1f7963034570d35) Tomas Bjerre)  
+
 ## 1.49.1 (2023-03-16)
 
 ### Bug Fixes
