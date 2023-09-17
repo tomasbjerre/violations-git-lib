@@ -21,7 +21,7 @@ project.ext.buildConfig = [
 apply from: project.buildscript.classLoader.getResource('main.gradle').toURI()
 
 dependencies {
- api 'se.bjurr.violations:violations-lib:1.156.5'
+ api 'se.bjurr.violations:violations-lib:1.156.6'
  api 'org.eclipse.jgit:org.eclipse.jgit:5.13.1.202206130422-r'
  api 'de.vandermeer:asciitable:0.3.2'
 
