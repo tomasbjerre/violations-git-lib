@@ -2,6 +2,12 @@
 
 Changelog of violations-git-lib.
 
+## 1.49.3 (2023-09-17)
+
+### Bug Fixes
+
+-  allow MSBuild in Program Files (x86) and support NU1701 ([ec40e](https://github.com/tomasbjerre/violations-git-lib/commit/ec40e18441a3240) Tomas Bjerre)  
+
 ## 1.49.2 (2023-06-01)
 
 ### Bug Fixes
