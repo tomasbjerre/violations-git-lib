@@ -2,6 +2,12 @@
 
 Changelog of violations-git-lib.
 
+## 2.0.0 (2024-01-27)
+
+### Breaking changes
+
+-  JGit 6 and Java 11 ([69947](https://github.com/tomasbjerre/violations-git-lib/commit/69947e5e4f582ff) Tomas Bjerre)  
+
 ## 1.49.4 (2023-09-17)
 
 ### Bug Fixes
