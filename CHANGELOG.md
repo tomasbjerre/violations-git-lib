@@ -2,6 +2,12 @@
 
 Changelog of violations-git-lib.
 
+## 2.1.0 (2024-03-24)
+
+### Features
+
+-  coverity parser ([13a57](https://github.com/tomasbjerre/violations-git-lib/commit/13a5779053a40f6) Tomas Bjerre)  
+
 ## 2.0.0 (2024-01-27)
 
 ### Breaking changes
