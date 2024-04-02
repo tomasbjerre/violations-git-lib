@@ -2,6 +2,13 @@
 
 Changelog of violations-git-lib.
 
+## 2.1.1 (2024-04-02)
+
+### Bug Fixes
+
+-  avoid repeated message in the Coverity parser ([7ec21](https://github.com/tomasbjerre/violations-git-lib/commit/7ec21a322f7a37e) Tomas Bjerre)  
+-  jackson 2.14.+ ([80b78](https://github.com/tomasbjerre/violations-git-lib/commit/80b7859f864d744) Tomas Bjerre)  
+
 ## 2.1.0 (2024-03-24)
 
 ### Features
