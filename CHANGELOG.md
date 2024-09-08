@@ -2,6 +2,12 @@
 
 Changelog of violations-git-lib.
 
+## 2.2.0 (2024-09-08)
+
+### Features
+
+-  stepping violations-lib 1.157.3 ([e0838](https://github.com/tomasbjerre/violations-git-lib/commit/e0838676c6c5cda) Tomas Bjerre)  
+
 ## 2.1.1 (2024-04-02)
 
 ### Bug Fixes
