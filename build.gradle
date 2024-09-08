@@ -16,12 +16,14 @@ project.ext.buildConfig = [
       "com",
       "se:se"
     ]
-  ]
+  ],
+  sourceCompatibility: 11,
+  targetCompatibility: 11
 ]
 apply from: project.buildscript.classLoader.getResource('main.gradle').toURI()
 
 dependencies {
- api 'se.bjurr.violations:violations-lib:1.157.1'
+ api 'se.bjurr.violations:violations-lib:1.157.3'
  api 'org.eclipse.jgit:org.eclipse.jgit:6.9.0.202403050737-r'
  api 'de.vandermeer:asciitable:0.3.2'
  api 'com.fasterxml.jackson.core:jackson-core:2.14.+'
