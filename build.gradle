@@ -14,7 +14,8 @@ project.ext.buildConfig = [
     relocate: [
       "org",
       "com",
-      "se:se"
+      "se",
+      "de"
     ]
   ],
   sourceCompatibility: 11,
