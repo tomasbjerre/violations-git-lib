@@ -2,6 +2,12 @@
 
 Changelog of violations-git-lib.
 
+## 2.2.1 (2024-09-29)
+
+### Bug Fixes
+
+-  relocating se and de ([9f395](https://github.com/tomasbjerre/violations-git-lib/commit/9f39553d908c05b) Tomas Bjerre)  
+
 ## 2.2.0 (2024-09-08)
 
 ### Features
