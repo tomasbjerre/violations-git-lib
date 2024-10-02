@@ -1,37 +1,18 @@
-apply plugin: 'java-library'
-
-buildscript {
- repositories {
-  mavenCentral()
-  mavenLocal()
- }
- dependencies {
-  classpath 'se.bjurr.gradle:gradle-scripts:2.+'
- }
+plugins {
+	id "se.bjurr.gradle.conventional-release" version "0.+"
+	id "se.bjurr.gradle.update-versions" version "0.+"
+	id "se.bjurr.gradle.java-convention" version "0.+"
 }
-project.ext.buildConfig = [
-  publishing: [
-    relocate: [
-      "org",
-      "com",
-      "se",
-      "de"
-    ]
-  ],
-  sourceCompatibility: 11,
-  targetCompatibility: 11
-]
-apply from: project.buildscript.classLoader.getResource('main.gradle').toURI()
 
 dependencies {
- api 'se.bjurr.violations:violations-lib:1.157.3'
- api 'org.eclipse.jgit:org.eclipse.jgit:6.9.0.202403050737-r'
- api 'de.vandermeer:asciitable:0.3.2'
- api 'com.fasterxml.jackson.core:jackson-core:2.14.+'
- api 'com.fasterxml.jackson.core:jackson-databind:2.14.+'
- api 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.14.+'
+	api 'se.bjurr.violations:violations-lib:1.157.3'
+	api 'org.eclipse.jgit:org.eclipse.jgit:6.9.0.202403050737-r'
+	api 'de.vandermeer:asciitable:0.3.2'
+	api 'com.fasterxml.jackson.core:jackson-core:2.14.+'
+	api 'com.fasterxml.jackson.core:jackson-databind:2.14.+'
+	api 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.14.+'
 
- testImplementation 'junit:junit:4.13.2'
- testImplementation 'org.assertj:assertj-core:3.25.3'
- testImplementation 'org.slf4j:slf4j-simple:2.0.6'
+	testImplementation 'junit:junit:4.13.2'
+	testImplementation 'org.assertj:assertj-core:3.25.3'
+	testImplementation 'org.slf4j:slf4j-simple:2.0.6'
 }
