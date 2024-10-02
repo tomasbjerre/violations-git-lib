@@ -2,6 +2,14 @@
 
 Changelog of violations-git-lib.
 
+## 2.3.1 (2024-10-02)
+
+## 2.3.0 (2024-10-02)
+
+### Features
+
+-  building with new plugins ([e4176](https://github.com/tomasbjerre/violations-git-lib/commit/e4176f073ce2bc3) Tomas Bjerre)  
+
 ## 2.2.1 (2024-09-29)
 
 ### Bug Fixes
