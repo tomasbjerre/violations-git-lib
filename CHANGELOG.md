@@ -1,3 +1,9 @@
+## 2.3.2 (2024-10-05)
+
+### Bug Fixes
+
+-  shadow broke Checkstyle parser by changing the 'severity' string ([2134d](https://github.com/tomasbjerre/violations-git-lib/commit/2134db2bd385d10) Tomas Bjerre)  
+
 
 ## 2.3.1 (2024-10-02)
 
