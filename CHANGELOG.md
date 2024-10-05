@@ -1,6 +1,3 @@
-# violations-git-lib changelog
-
-Changelog of violations-git-lib.
 
 ## 2.3.1 (2024-10-02)
 
