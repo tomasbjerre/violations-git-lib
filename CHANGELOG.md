@@ -1,3 +1,9 @@
+## 2.3.3 (2024-10-14)
+
+### Bug Fixes
+
+-  slf4j-simple 2.0.16 ([e8549](https://github.com/tomasbjerre/violations-git-lib/commit/e854976e8e56e8b) Tomas Bjerre)  
+
 ## 2.3.2 (2024-10-05)
 
 ### Bug Fixes
