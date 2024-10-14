@@ -1,3 +1,9 @@
+## 2.3.4 (2024-10-14)
+
+### Bug Fixes
+
+-  trigger version change ([b8cc6](https://github.com/tomasbjerre/violations-git-lib/commit/b8cc641e5be6c6b) Tomas Bjerre)  
+
 ## 2.3.3 (2024-10-14)
 
 ### Bug Fixes
