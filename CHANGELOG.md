@@ -1,3 +1,8 @@
+## 2.3.5 (2025-05-10)
+
+### Dependency updates
+
+- dependencies ([bfdf3](https://github.com/tomasbjerre/violations-git-lib/commit/bfdf32a18e4a015) Tomas Bjerre)  
 ## 2.3.4 (2024-10-14)
 
 ### Bug Fixes
