@@ -5,7 +5,7 @@ plugins {
 }
 
 dependencies {
-	api 'se.bjurr.violations:violations-lib:1.158.0'
+	api 'se.bjurr.violations:violations-lib:1.158.1'
 	api 'org.eclipse.jgit:org.eclipse.jgit:6.10.1.202505221210-r'
 	api 'de.vandermeer:asciitable:0.3.2'
 	api 'com.fasterxml.jackson.core:jackson-core:2.14.+'
