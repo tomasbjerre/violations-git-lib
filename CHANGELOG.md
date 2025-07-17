@@ -3,6 +3,11 @@
 ### Dependency updates
 
 - violations-lib 1.158.0 -> 1.158.1 ([dc357](https://github.com/tomasbjerre/violations-git-lib/commit/dc357adb0e5fc89) Tomas Bjerre)  
+## 2.3.6 (2025-07-14)
+
+### Dependency updates
+
+- violations-lib 1.158.0 -> 1.158.1 ([dc357](https://github.com/tomasbjerre/violations-git-lib/commit/dc357adb0e5fc89) Tomas Bjerre)  
 ## 2.3.5 (2025-05-10)
 
 ### Dependency updates
