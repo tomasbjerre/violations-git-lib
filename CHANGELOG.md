@@ -1,3 +1,8 @@
+## 2.3.8 (2025-08-12)
+
+### Dependency updates
+
+- jgit:7.3.0.202506031305-r ([a36bb](https://github.com/tomasbjerre/violations-git-lib/commit/a36bb0fc157c7bd) Tomas Bjerre)  
 ## 2.3.6 (2025-07-14)
 
 ### Dependency updates
