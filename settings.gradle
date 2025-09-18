@@ -5,3 +5,12 @@ pluginManagement {
 		gradlePluginPortal()
 	}
 }
+
+plugins {
+	id "se.bjurr.gradle.bundle-jar" version "1.+" apply false
+	id "se.bjurr.gradle.shadow" version "1.+" apply false
+}
+
+rootProject.name = "violations-git-lib-base"
+
+include "violations-git-lib-transitives","violations-git-lib"
