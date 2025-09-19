@@ -1,3 +1,9 @@
+## 2.4.0 (2025-09-19)
+
+### Features
+
+-  violations-git-lib-transitives artefact ([41979](https://github.com/tomasbjerre/violations-git-lib/commit/41979b5deb876f7) Tomas Bjerre)  
+
 ## 2.3.8 (2025-08-12)
 
 ### Dependency updates
