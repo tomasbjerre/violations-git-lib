@@ -23,7 +23,7 @@ project(":violations-git-lib-transitives") {
 		api "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.20.0"
 
 		testImplementation 'junit:junit:4.13.2'
-		testImplementation 'org.assertj:assertj-core:3.27.4'
+		testImplementation "org.assertj:assertj-core:3.27.5"
 		testImplementation 'org.slf4j:slf4j-simple:2.0.17'
 	}
 }
