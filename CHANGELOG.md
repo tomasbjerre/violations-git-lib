@@ -1,3 +1,9 @@
+## 2.4.1 (2025-09-19)
+
+### Bug Fixes
+
+-  build with java 11 ([0e3e5](https://github.com/tomasbjerre/violations-git-lib/commit/0e3e5d92b4621aa) Tomas Bjerre)  
+
 ## 2.4.0 (2025-09-19)
 
 ### Features
