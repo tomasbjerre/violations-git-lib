@@ -1,3 +1,9 @@
+## 2.5.0 (2025-09-28)
+
+### Features
+
+-  PMDCPD 7 ([b2712](https://github.com/tomasbjerre/violations-git-lib/commit/b27120e626c8b51) Tomas Bjerre)  
+
 ## 2.4.1 (2025-09-19)
 
 ### Bug Fixes
