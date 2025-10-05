@@ -1,3 +1,9 @@
+## 2.5.1 (2025-10-05)
+
+### Bug Fixes
+
+-  docfx message_severity ([2b3a4](https://github.com/tomasbjerre/violations-git-lib/commit/2b3a40165e609e3) Tomas Bjerre)  
+
 ## 2.5.0 (2025-09-28)
 
 ### Features
