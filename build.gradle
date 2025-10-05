@@ -8,14 +8,13 @@ allprojects {
 	}
 
 	javaExtension {
-		sourceCompatibility = "11"
-		targetCompatibility = "11"
+		javaVersion = 17
 	}
 }
 
 project(":violations-git-lib-transitives") {
 	dependencies {
-		api "se.bjurr.violations:violations-lib:1.160.0"
+		api "se.bjurr.violations:violations-lib:1.160.2"
 		api 'org.eclipse.jgit:org.eclipse.jgit:7.3.0.202506031305-r'
 		api 'de.vandermeer:asciitable:0.3.2'
 		api "com.fasterxml.jackson.core:jackson-core:2.20.0"
