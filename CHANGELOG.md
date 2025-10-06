@@ -1,3 +1,9 @@
+## 2.5.2 (2025-10-06)
+
+### Bug Fixes
+
+-  Gradle 9 ([8327b](https://github.com/tomasbjerre/violations-git-lib/commit/8327bc4aff5c23c) Tomas Bjerre)  
+
 ## Unreleased ()
 
 ## 2.5.1 (2025-10-05)
