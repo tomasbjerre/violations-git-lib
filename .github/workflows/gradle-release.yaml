@@ -1,0 +1,7 @@
+name: Bundle Gradle Release
+
+on: [workflow_dispatch]
+
+jobs:
+  call-workflow:
+    uses: tomasbjerre/.github/.github/workflows/bundle-gradle-release.yaml@master
