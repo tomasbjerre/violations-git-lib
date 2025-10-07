@@ -1,3 +1,9 @@
+## 2.5.3 (2025-10-07)
+
+### Bug Fixes
+
+-  trigger version ([15aa5](https://github.com/tomasbjerre/violations-git-lib/commit/15aa5f842e78b69) Tomas Bjerre)  
+
 ## Unreleased ()
 
 ## 2.5.2 (2025-10-06)
