@@ -144,7 +144,7 @@ public class ViolationsReporterApi {
       this.zeroToMax(this.maxLineColumnWidth),
       this.zeroToMax(this.maxMessageColumnWidth)
     };
-    sb.append(ViolationsTable.of(headers, data, columnWidths));
+    sb.append(ViolationsTable.create(headers, data, columnWidths));
     sb.append("\n");
     sb.append(this.toCompact(violations, summarySubject));
     sb.append("\n");
@@ -201,7 +201,7 @@ public class ViolationsReporterApi {
     final String[][] data = rows.toArray(new String[][] {});
     sb.append(subject + "\n");
     final int[] columnWidths = {};
-    sb.append(ViolationsTable.of(headers, data, columnWidths));
+    sb.append(ViolationsTable.create(headers, data, columnWidths));
     sb.append("\n");
     return sb;
   }

@@ -7,8 +7,8 @@ pluginManagement {
 }
 
 plugins {
-	id "se.bjurr.gradle.bundle-jar" version "1.+" apply false
-	id "se.bjurr.gradle.shadow" version "1.+" apply false
+	id "se.bjurr.gradle.bundle-jar" version "2.+" apply false
+	id "se.bjurr.gradle.shadow" version "2.+" apply false
 }
 
 rootProject.name = "violations-git-lib-base"

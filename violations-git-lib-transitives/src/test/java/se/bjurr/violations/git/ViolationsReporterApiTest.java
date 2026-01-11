@@ -14,10 +14,9 @@ import java.io.File;
 import java.util.Set;
 import java.util.TreeSet;
 import java.util.logging.Logger;
-import org.junit.Before;
-import org.junit.Rule;
-import org.junit.Test;
-import org.junit.rules.TestName;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.TestInfo;
 import se.bjurr.violations.lib.model.Violation;
 
 public class ViolationsReporterApiTest {
@@ -35,10 +34,11 @@ public class ViolationsReporterApiTest {
         .getParent();
   }
 
-  @Rule public TestName name = new TestName();
+  private TestInfo testInfo;
 
-  @Before
-  public void before() {
+  @BeforeEach
+  public void before(TestInfo testInfo) {
+    this.testInfo = testInfo;
     final String rootFolder = getRootFolder();
 
     this.findbugsViolations =
@@ -72,7 +72,7 @@ public class ViolationsReporterApiTest {
             .violations();
     this.accumulatedViolations.addAll(this.perlCriticViolations);
     assertThat(this.accumulatedViolations).isNotEmpty();
-    LOG.info("\n\n\n " + this.name.getMethodName() + " \n\n\n");
+    LOG.info("\n\n\n " + this.testInfo.getDisplayName() + " \n\n\n");
   }
 
   @Test

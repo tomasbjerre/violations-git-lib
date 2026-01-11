@@ -29,14 +29,11 @@ public final class ViolationsGitRepo {
   public static DiffsPerFile diff(final File repo, final String from, final String to)
       throws Exception {
     final Map<String, String> patchPerFile = new TreeMap<>();
-    Git git = null;
-    Repository repository = null;
-    try {
-      repository = getGitRepo(repo);
+    try (Repository repository = getGitRepo(repo);
+        Git git = new Git(repository)) {
       final ObjectId fromObjectId = getObjectId(repository, from);
       final ObjectId toObjectId = getObjectId(repository, to);
 
-      git = new Git(repository);
       final AbstractTreeIterator oldTree = getTree(repository, fromObjectId);
       final AbstractTreeIterator newTree = getTree(repository, toObjectId);
       final List<DiffEntry> diffs = git.diff().setOldTree(oldTree).setNewTree(newTree).call();
@@ -48,13 +45,6 @@ public final class ViolationsGitRepo {
       }
     } catch (final IOException e) {
       throw new RuntimeException("Could not use GIT repo in " + repo.getAbsolutePath(), e);
-    } finally {
-      if (repository != null) {
-        repository.close();
-      }
-      if (git != null) {
-        git.close();
-      }
     }
     return new DiffsPerFile(patchPerFile);
   }

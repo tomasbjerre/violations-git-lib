@@ -7,7 +7,8 @@ import de.vandermeer.asciithemes.a7.A7_Grids;
 
 public class ViolationsTable {
 
-  public static String of(final String[] headers, final String[][] data, final int[] columnWidths) {
+  public static String create(
+      final String[] headers, final String[][] data, final int... columnWidths) {
     final AsciiTable at = new AsciiTable();
     at.getContext().setGrid(A7_Grids.minusBarPlus());
     at.addRow(headers);
