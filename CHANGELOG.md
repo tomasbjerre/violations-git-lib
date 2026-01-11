@@ -1,3 +1,9 @@
+## 2.5.4 (2026-01-11)
+
+### Bug Fixes
+
+-  dependencies and minor sca-fixes ([54d8a](https://github.com/tomasbjerre/violations-git-lib/commit/54d8aa4d4f27144) Tomas Bjerre)  
+
 ## 2.5.3 (2025-10-07)
 
 ### Bug Fixes
