@@ -1,3 +1,9 @@
+## 2.5.5 (2026-01-11)
+
+### Bug Fixes
+
+-  trying to fix multiproject artifacts to Central ([65d66](https://github.com/tomasbjerre/violations-git-lib/commit/65d66d964f81c5e) Tomas Bjerre)  
+
 ## 2.5.4 (2026-01-11)
 
 ### Bug Fixes
