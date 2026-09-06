@@ -1,3 +1,9 @@
+## 2.5.7 (2026-09-06)
+
+### Bug Fixes
+
+-  slf4j ([65d98](https://github.com/tomasbjerre/violations-git-lib/commit/65d98ae9765210a) Tomas Bjerre)  
+
 ## 2.5.6 (2026-09-06)
 
 ### Bug Fixes
