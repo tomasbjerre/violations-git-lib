@@ -1,3 +1,9 @@
+## 2.5.6 (2026-09-06)
+
+### Bug Fixes
+
+-  violations-lib 1.160.4 ([cc9ac](https://github.com/tomasbjerre/violations-git-lib/commit/cc9ac98a0868cb6) Tomas Bjerre)  
+
 ## 2.5.5 (2026-01-11)
 
 ### Bug Fixes
