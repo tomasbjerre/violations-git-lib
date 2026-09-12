@@ -10,3 +10,5 @@ It is used by these libraries:
 
 * [Violations Gradle Plugin](https://github.com/tomasbjerre/violations-gradle-plugin).
 * [Violations Maven Plugin](https://github.com/tomasbjerre/violations-maven-plugin).
+* [Violations Command Line](https://github.com/tomasbjerre/violations-command-line).
+
