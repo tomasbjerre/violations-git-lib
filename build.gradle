@@ -3,10 +3,6 @@ plugins {
 }
 
 allprojects {
-	staticCodeAnalysisExtension {
-		maxViolations.set(3)
-	}
-
 	javaExtension {
 		javaVersion = 17
 	}
@@ -14,16 +10,16 @@ allprojects {
 
 project(":violations-git-lib-transitives") {
 	dependencies {
-		api "se.bjurr.violations:violations-lib:1.160.4"
-		api "org.eclipse.jgit:org.eclipse.jgit:7.5.0.202512021534-r"
+		api "se.bjurr.violations:violations-lib:2.0.0"
+		api "org.eclipse.jgit:org.eclipse.jgit:7.8.0.202609011348-r"
 		api 'de.vandermeer:asciitable:0.3.2'
-		api "com.fasterxml.jackson.core:jackson-core:2.20.1"
-		api "com.fasterxml.jackson.core:jackson-databind:2.20.1"
-		api "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.20.1"
+		api "com.fasterxml.jackson.core:jackson-core:2.22.2"
+		api "com.fasterxml.jackson.core:jackson-databind:2.22.2"
+		api "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.22.2"
 
-		testImplementation "org.junit.jupiter:junit-jupiter:6.0.2"
+		testImplementation "org.junit.jupiter:junit-jupiter:6.1.3"
 		testRuntimeOnly "org.junit.platform:junit-platform-launcher"
-		testImplementation "org.assertj:assertj-core:3.27.6"
+		testImplementation "org.assertj:assertj-core:3.27.7"
 		testImplementation 'org.slf4j:slf4j-simple:2.0.19'
 	}
 }
