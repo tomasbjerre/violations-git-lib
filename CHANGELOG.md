@@ -1,3 +1,12 @@
+## 2.5.8 (2026-09-12)
+
+### Bug Fixes
+
+-  ignore the per-file inventory in PMD CPD reports ([fab3f](https://github.com/tomasbjerre/violations-git-lib/commit/fab3fea2f8df026) Tomas Bjerre)  
+
+### Dependency updates
+
+- jackson 2.22.2 -> 3.2.2 ([5740a](https://github.com/tomasbjerre/violations-git-lib/commit/5740a916f6f8ced) Tomas Bjerre)  
 ## 2.5.7 (2026-09-06)
 
 ### Bug Fixes
