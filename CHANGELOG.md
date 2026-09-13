@@ -1,3 +1,9 @@
+## 2.5.9 (2026-09-13)
+
+### Bug Fixes
+
+-  gradle 8 compatible, avoiding java 21 and 23 classes ([f71d5](https://github.com/tomasbjerre/violations-git-lib/commit/f71d5e90765c0be) Tomas Bjerre)  
+
 ## 2.5.8 (2026-09-12)
 
 ### Bug Fixes
