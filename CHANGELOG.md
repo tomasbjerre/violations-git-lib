@@ -1,3 +1,24 @@
+## 2.6.0 (2026-09-13)
+
+### Features
+
+-  avoiding violations-lib fat jar to reduce file sizes ([fadbe](https://github.com/tomasbjerre/violations-git-lib/commit/fadbe9efec8e13b) Tomas Bjerre)  
+
+### Dependency updates
+
+- pin gradle-conventions plugins to released 2.1.1, update deps ([06357](https://github.com/tomasbjerre/violations-git-lib/commit/0635784fe5547d5) Tomas Bjerre)  
+### Other changes
+
+**Fix broken Maven Central badge in README**
+
+* maven-badges.herokuapp.com is down; switch to img.shields.io badge 
+* linking to search.maven.org. 
+* Co-Authored-By: Claude Sonnet 5 &lt;noreply@anthropic.com&gt; 
+* Claude-Session: https://claude.ai/code/session_011PGVf85V1VhJj4oM3rKh7b 
+
+[d88f4](https://github.com/tomasbjerre/violations-git-lib/commit/d88f420f7f57d6f) Tomas Bjerre *2026-09-13 08:52:01*
+
+
 ## 2.5.9 (2026-09-13)
 
 ### Bug Fixes
