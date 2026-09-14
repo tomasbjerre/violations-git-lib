@@ -10,7 +10,7 @@ allprojects {
 
 project(":violations-git-lib-transitives") {
 	dependencies {
-		api "se.bjurr.violations:violations-lib:2.1.0"
+		api "se.bjurr.violations:violations-lib:2.2.0"
 		api "org.eclipse.jgit:org.eclipse.jgit:7.8.0.202609011348-r"
 		api 'de.vandermeer:asciitable:0.3.2'
 		api "tools.jackson.core:jackson-core:3.2.2"
