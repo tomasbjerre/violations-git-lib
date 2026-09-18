@@ -1,3 +1,34 @@
+## 2.7.1 (2026-09-18)
+
+### Dependency updates
+
+- update plugin se.bjurr.gradle.shadow to v2.3.0 (#4) ([32d4e](https://github.com/tomasbjerre/violations-git-lib/commit/32d4eeb05128259) renovate[bot])  
+- se.bjurr.violations:violations-lib:2.2.0 -> 3.0.0 ([dc3cd](https://github.com/tomasbjerre/violations-git-lib/commit/dc3cd460b969db2) Tomas Bjerre)  
+- update plugin se.bjurr.gradle.bundle-jar to v2.3.0 (#3) ([93ed1](https://github.com/tomasbjerre/violations-git-lib/commit/93ed1d38dc3da3d) renovate[bot])  
+- update plugin se.bjurr.gradle.bundle-jar to v2.3.0 (#2) ([059f3](https://github.com/tomasbjerre/violations-git-lib/commit/059f3ed0d090585) renovate[bot])  
+### Other changes
+
+**Superseded by centralized publish-draft-releases.yaml in .github**
+
+
+[5dc7b](https://github.com/tomasbjerre/violations-git-lib/commit/5dc7b76adcf28f0) Tomas Bjerre *2026-09-14 19:58:52*
+
+**Auto-publish pending draft releases weekly**
+
+
+[12a3b](https://github.com/tomasbjerre/violations-git-lib/commit/12a3b6cd9831955) Tomas Bjerre *2026-09-14 19:47:49*
+
+**Remove temporary PAT push test artifact**
+
+
+[4ce21](https://github.com/tomasbjerre/violations-git-lib/commit/4ce2152f1795c10) Tomas Bjerre *2026-09-14 19:33:07*
+
+**Remove temporary PAT push test**
+
+
+[19384](https://github.com/tomasbjerre/violations-git-lib/commit/19384365523fd7a) Tomas Bjerre *2026-09-14 19:33:06*
+
+
 ## 2.6.0 (2026-09-13)
 
 ### Features
