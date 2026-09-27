@@ -13,7 +13,7 @@ project(":violations-git-lib-transitives") {
 		api "se.bjurr.violations:violations-lib:3.0.0"
 		api "org.eclipse.jgit:org.eclipse.jgit:7.8.0.202609011348-r"
 		api 'de.vandermeer:asciitable:0.3.2'
-		api "tools.jackson.core:jackson-core:3.2.2"
+		api "tools.jackson.core:jackson-core:3.2.3"
 		api "tools.jackson.core:jackson-databind:3.2.3"
 
 		testImplementation "org.junit.jupiter:junit-jupiter:6.1.3"
