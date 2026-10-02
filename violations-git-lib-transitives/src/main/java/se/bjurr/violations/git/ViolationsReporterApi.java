@@ -209,7 +209,7 @@ public class ViolationsReporterApi {
   private Map<SEVERITY, Set<Violation>> getViolationsPerSeverity(final Set<Violation> violations) {
     final Map<SEVERITY, Set<Violation>> violationsPerSeverity = new TreeMap<>();
     for (final SEVERITY severity : SEVERITY.values()) {
-      violationsPerSeverity.put(severity, new TreeSet<Violation>());
+      violationsPerSeverity.put(severity, new TreeSet<>());
     }
 
     for (final Violation violation : violations) {

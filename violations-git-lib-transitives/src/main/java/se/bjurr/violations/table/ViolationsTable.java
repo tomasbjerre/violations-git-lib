@@ -5,16 +5,18 @@ import de.vandermeer.asciitable.CWC_LongestLine;
 import de.vandermeer.asciitable.CWC_LongestWordMax;
 import de.vandermeer.asciithemes.a7.A7_Grids;
 
-public class ViolationsTable {
+public final class ViolationsTable {
+
+  private ViolationsTable() {}
 
   public static String create(
       final String[] headers, final String[][] data, final int... columnWidths) {
     final AsciiTable at = new AsciiTable();
     at.getContext().setGrid(A7_Grids.minusBarPlus());
-    at.addRow(headers);
+    at.addRow((Object[]) headers);
     at.addRule();
     for (final String[] dataRow : data) {
-      at.addRow(dataRow);
+      at.addRow((Object[]) dataRow);
       at.addRule();
     }
     if (columnWidths.length > 0) {
