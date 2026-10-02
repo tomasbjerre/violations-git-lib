@@ -3,7 +3,7 @@ package se.bjurr.violations.git;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.IOException;
-import java.io.UnsupportedEncodingException;
+import java.nio.charset.StandardCharsets;
 import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
@@ -50,7 +50,7 @@ public final class ViolationsGitRepo {
   }
 
   private static String toPatchString(final Repository repository, final DiffEntry diff)
-      throws IOException, UnsupportedEncodingException {
+      throws IOException {
     final ByteArrayOutputStream out = new ByteArrayOutputStream();
     try (final DiffFormatter df = new DiffFormatter(out)) {
       df.setRepository(repository);
@@ -59,7 +59,7 @@ public final class ViolationsGitRepo {
       final RawText r = new RawText(out.toByteArray());
       r.getLineDelimiter();
     }
-    final String patchString = out.toString("UTF-8");
+    final String patchString = out.toString(StandardCharsets.UTF_8);
     out.reset();
     return patchString;
   }
