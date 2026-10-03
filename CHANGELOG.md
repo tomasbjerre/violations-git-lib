@@ -1,3 +1,11 @@
+## 2.7.3 (2026-10-03)
+
+### Dependency updates
+
+- update plugin se.bjurr.gradle.bundle-jar to v2.4.4 (#14) ([c65a3](https://github.com/tomasbjerre/violations-git-lib/commit/c65a3276768e1f2) renovate[bot])  
+- update plugin se.bjurr.gradle.bundle-jar to v2.4.3 (#13) ([8b4ff](https://github.com/tomasbjerre/violations-git-lib/commit/8b4ffd86215887c) renovate[bot])  
+- update plugin se.bjurr.gradle.shadow to v2.4.1 (#12) ([f83cd](https://github.com/tomasbjerre/violations-git-lib/commit/f83cded2f83453f) renovate[bot])  
+- update plugin se.bjurr.gradle.bundle-jar to v2.4.1 (#11) ([2809e](https://github.com/tomasbjerre/violations-git-lib/commit/2809e5825a2a2eb) renovate[bot])  
 ## 2.7.1 (2026-09-18)
 
 ### Dependency updates
