@@ -1,3 +1,14 @@
+## 2.7.4 (2026-10-28)
+
+### Dependency updates
+
+- update dependency se.bjurr.violations:violations-lib to v3.0.3 (#22) ([4bdfc](https://github.com/tomasbjerre/violations-git-lib/commit/4bdfcbd37164338) renovate[bot])  
+- update dependency tools.jackson.core:jackson-databind to v3.2.4 (#21) ([82f55](https://github.com/tomasbjerre/violations-git-lib/commit/82f551c6ab98851) renovate[bot])  
+- update dependency tools.jackson.core:jackson-core to v3.2.4 (#20) ([ece8f](https://github.com/tomasbjerre/violations-git-lib/commit/ece8f48e8a8895d) renovate[bot])  
+- update dependency gradle to v9.8.2 (#19) ([dd3f3](https://github.com/tomasbjerre/violations-git-lib/commit/dd3f36ba4b77431) renovate[bot])  
+- update dependency gradle to v9.8.1 (#18) ([6e9cf](https://github.com/tomasbjerre/violations-git-lib/commit/6e9cf72705b4337) renovate[bot])  
+- update plugin se.bjurr.gradle.shadow to v2.4.4 (#16) ([ddd1f](https://github.com/tomasbjerre/violations-git-lib/commit/ddd1f5a5b55ec88) renovate[bot])  
+- update dependency se.bjurr.violations:violations-lib to v3.0.2 (#15) ([b6790](https://github.com/tomasbjerre/violations-git-lib/commit/b6790547e74e123) renovate[bot])  
 ## 2.7.3 (2026-10-03)
 
 ### Dependency updates
